@@ -1,0 +1,129 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "checks": {
+    "missing_audio_segments": {
+      "status": "PASS",
+      "value": 0,
+      "detail": "every line has audio"
+    },
+    "dialogue_loudness": {
+      "status": "REVIEW_REQUIRED",
+      "value": -26.8,
+      "detail": "target -17.0 LUFS"
+    },
+    "dialogue_bed_margin": {
+      "status": "REVIEW_REQUIRED",
+      "value": -1.0,
+      "detail": "dialogue minus bed integrated loudness (min 6 dB, static; dynamic ducking adds more under speech)"
+    },
+    "true_peak": {
+      "status": "PASS",
+      "value": -1.8,
+      "detail": "ceiling -1.0 dBTP"
+    },
+    "clipping": {
+      "status": "PASS",
+      "value": 0,
+      "detail": "peak 0.8197"
+    },
+    "original_dialogue_leakage": {
+      "status": "PASS",
+      "value": 0.0009,
+      "detail": "speech-band energy left in the separated background under Hindi lines, relative to the original vocals"
+    },
+    "separation_quality": {
+      "status": "PASS",
+      "value": 0.958,
+      "detail": "music bleed into vocals 0.08"
+    },
+    "background_preservation": {
+      "status": "WARNING",
+      "value": 0.056,
+      "detail": "bed energy outside dialogue relative to the original track"
+    },
+    "timing_overflow": {
+      "status": "PASS",
+      "value": 0,
+      "detail": "lines still exceed their dialogue slot after timing adjustment; 0 line(s) run into the next line"
+    },
+    "voice_substitutions": {
+      "status": "PASS",
+      "value": 0,
+      "detail": "every speaker got the requested voice"
+    }
+  },
+  "metrics": {
+    "original_dialogue_leakage_score": 0.0009,
+    "separation_quality_score": 0.958,
+    "background_preservation_score": 0.056
+  },
+  "loudness": {
+    "dialogue": {
+      "integrated_lufs": -26.8,
+      "loudness_range_lu": 8.6,
+      "true_peak_dbtp": -7.7
+    },
+    "bed": {
+      "integrated_lufs": -25.8,
+      "loudness_range_lu": 23.8,
+      "true_peak_dbtp": -12.2
+    },
+    "mix": {
+      "integrated_lufs": -18.8,
+      "loudness_range_lu": 13.3,
+      "true_peak_dbtp": -1.7
+    },
+    "output": {
+      "integrated_lufs": -18.8,
+      "loudness_range_lu": 13.1,
+      "true_peak_dbtp": -1.8
+    }
+  },
+  "clipping": {
+    "clipped_samples": 0,
+    "peak": 0.8197,
+    "ratio": 0.0
+  },
+  "mix": {
+    "mode": "preserve_background",
+    "bed": "background",
+    "dialogue_gain_db": 6.0,
+    "bed_gain_db": -11.9,
+    "dialogue_lufs_before": -26.8,
+    "bed_lufs_before": -14.9,
+    "dynamic_ducking": true,
+    "duck_db": -6.0,
+    "attack_ms": 30.0,
+    "release_ms": 400.0,
+    "peak_protection": {
+      "input_peak": 0.8197,
+      "output_peak": 0.8197,
+      "ceiling_dbfs": -1.5,
+      "gain_db": 0.0
+    },
+    "target_lufs": -17.0,
+    "notes": [
+      "dialogue needed +9.8 dB to reach -17.0 LUFS; capped at +6.0 dB (DIALOGUE_NORMALIZE_MAX_DB)",
+      "bed (-14.9 LUFS) louder than dialogue - 6 dB; lowered -11.9 dB"
+    ]
+  },
+  "engines": [
+    "parler"
+  ],
+  "not_measured": {
+    "speaker_attribution_accuracy": "needs a labelled set; see /speakers suggestions + review",
+    "pronunciation_intelligibility": "ASR re-transcription not run (enable in a later release)",
+    "character_identity_consistency": "embedding comparison of generated lines vs approved reference not run",
+    "translation_adequacy": "human review gate"
+  },
+  "release_blocked": false,
+  "note": "Signal-based triage; a listener makes the release decision.",
+  "stems": {
+    "dialogue": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\work\\2b9a3c27e66857cf\\mix\\88303a2116ff7bde\\dialogue.wav",
+    "bed": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\work\\2b9a3c27e66857cf\\mix\\88303a2116ff7bde\\bed.wav",
+    "mix": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\work\\2b9a3c27e66857cf\\mix\\88303a2116ff7bde\\mix.wav",
+    "master": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\work\\2b9a3c27e66857cf\\extract\\8390ba5c8aa294eb\\master.wav",
+    "vocals": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\work\\2b9a3c27e66857cf\\separate\\9973917a188881da\\vocals.wav",
+    "background": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\work\\2b9a3c27e66857cf\\separate\\9973917a188881da\\background.wav"
+  }
+}

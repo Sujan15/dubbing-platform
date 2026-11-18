@@ -1,0 +1,182 @@
+{
+  "job_id": "59c02904e17749aea96190aa1c1c6cc7",
+  "state": "succeeded",
+  "stage": "done",
+  "progress": 1.0,
+  "message": "Dubbing complete (QA REVIEW_REQUIRED)",
+  "input_filename": "35-sec-_video.mp4",
+  "input_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\projects\\3debc097f06d4f748724b7a341350bd9\\videos\\064ce7813b594e61b68293d773db83ff\\original\\input.mp4",
+  "options": {
+    "source_language": null,
+    "mix_mode": "preserve_background",
+    "translation_engine": "openrouter",
+    "min_speakers": 2,
+    "max_speakers": 4
+  },
+  "created_at": "2026-11-18T03:36:18.439998Z",
+  "started_at": "2026-11-18T03:36:18.441984Z",
+  "finished_at": "2026-11-18T03:48:02.052245Z",
+  "output_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\59c02904e17749aea96190aa1c1c6cc7\\input.hindi.mp4",
+  "manifest_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\59c02904e17749aea96190aa1c1c6cc7\\manifest.json",
+  "timing_report_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\59c02904e17749aea96190aa1c1c6cc7\\timing_report.json",
+  "source_language": "en",
+  "speakers": 4,
+  "segments": 7,
+  "warnings": [
+    "QA REVIEW_REQUIRED: dialogue_loudness - target -17.0 LUFS",
+    "QA REVIEW_REQUIRED: dialogue_bed_margin - dialogue minus bed integrated loudness (min 6 dB, static; dynamic ducking adds more under speech)"
+  ],
+  "error": null,
+  "project_id": "3debc097f06d4f748724b7a341350bd9",
+  "video_id": "064ce7813b594e61b68293d773db83ff",
+  "review_required": true,
+  "phase": "generation",
+  "approved_version": 2,
+  "stage_history": [
+    {
+      "stage": "validate",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-11-18T03:36:18.447969Z",
+      "finished_at": "2026-11-18T03:36:18.619501Z",
+      "message": "Probing input video"
+    },
+    {
+      "stage": "extract",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-11-18T03:36:18.619501Z",
+      "finished_at": "2026-11-18T03:36:18.623490Z",
+      "message": "Extracting audio"
+    },
+    {
+      "stage": "separate",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-11-18T03:36:18.623490Z",
+      "finished_at": "2026-11-18T03:36:18.638449Z",
+      "message": "Separation done"
+    },
+    {
+      "stage": "transcribe",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-11-18T03:36:18.638449Z",
+      "finished_at": "2026-11-18T03:36:18.651415Z",
+      "message": "5 ASR segments (en)"
+    },
+    {
+      "stage": "diarize",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-11-18T03:36:18.651415Z",
+      "finished_at": "2026-11-18T03:36:18.667371Z",
+      "message": "4 speakers"
+    },
+    {
+      "stage": "align",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-11-18T03:36:18.667371Z",
+      "finished_at": "2026-11-18T03:36:18.677344Z",
+      "message": "7 dialogue blocks, 4 speakers"
+    },
+    {
+      "stage": "translate",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-11-18T03:36:18.677344Z",
+      "finished_at": "2026-11-18T03:36:18.690309Z",
+      "message": "Translation complete"
+    },
+    {
+      "stage": "voices",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-11-18T03:36:18.690309Z",
+      "finished_at": "2026-11-18T03:36:23.180127Z",
+      "message": "4 voice references"
+    },
+    {
+      "stage": "identity",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-11-18T03:36:23.180127Z",
+      "finished_at": "2026-11-18T03:36:23.207980Z",
+      "message": "Speaker embeddings ready"
+    },
+    {
+      "stage": "prepare",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-11-18T03:41:21.096232Z",
+      "finished_at": "2026-11-18T03:41:21.232926Z",
+      "message": "Probing input video"
+    },
+    {
+      "stage": "voices",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-11-18T03:41:21.232926Z",
+      "finished_at": "2026-11-18T03:41:21.235903Z",
+      "message": "4 voice references"
+    },
+    {
+      "stage": "resolve_voices",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-11-18T03:41:21.235903Z",
+      "finished_at": "2026-11-18T03:41:21.262814Z",
+      "message": "Resolving voices"
+    },
+    {
+      "stage": "synthesize",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-11-18T03:41:21.262814Z",
+      "finished_at": "2026-11-18T03:47:51.580772Z",
+      "message": "Loading parler"
+    },
+    {
+      "stage": "mix",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-11-18T03:47:51.580772Z",
+      "finished_at": "2026-11-18T03:47:52.572419Z",
+      "message": "Placing Hindi dialogue"
+    },
+    {
+      "stage": "mux",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-11-18T03:47:52.572419Z",
+      "finished_at": "2026-11-18T03:47:54.909612Z",
+      "message": "Muxing Hindi audio into video"
+    },
+    {
+      "stage": "validate_output",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-11-18T03:47:54.909612Z",
+      "finished_at": "2026-11-18T03:47:55.485320Z",
+      "message": "Validating output"
+    },
+    {
+      "stage": "qa",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-11-18T03:47:55.485320Z",
+      "finished_at": "2026-11-18T03:48:02.051241Z",
+      "message": "Measuring quality"
+    }
+  ],
+  "analysis_completed_at": "2026-11-18T03:36:23.208982Z",
+  "generation_started_at": "2026-11-18T03:41:21.076076Z",
+  "qa_status": "REVIEW_REQUIRED",
+  "qa_report_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\59c02904e17749aea96190aa1c1c6cc7\\qa_report.json",
+  "release_approved": true,
+  "release_note": "good",
+  "engines": [
+    "parler"
+  ]
+}

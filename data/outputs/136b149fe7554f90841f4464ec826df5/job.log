@@ -1,0 +1,61 @@
+2026-11-16 15:55:36,576 INFO dubbing.pipeline: Input input.mp4: 35.0s, 1920x1080 @ 60.000 fps, video=h264, audio streams=1
+2026-11-16 15:55:36,683 INFO dubbing.pipeline: Workspace: G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\work\2b9a3c27e66857cf | device: cpu
+2026-11-16 15:55:36,691 INFO dubbing.pipeline: [extract] cache hit (8390ba5c8aa294eb)
+2026-11-16 15:55:36,700 INFO dubbing.pipeline: [separate] cache hit (9973917a188881da)
+2026-11-16 15:55:36,707 INFO dubbing.pipeline: [transcribe] cache hit (c6da5df2b69b5dff)
+2026-11-16 15:55:36,727 INFO dubbing.pipeline: [diarize] cache hit (36cf8c6a152dfce8)
+2026-11-16 15:55:36,742 INFO dubbing.pipeline: [align] cache hit (535e2b33abaee3c7)
+2026-11-16 15:55:36,755 INFO dubbing.pipeline: [translate] cache hit (da543c606c7284c1)
+2026-11-16 15:55:36,769 INFO dubbing.pipeline: [voices] cache hit (927ee1a9fa5cdfb6)
+2026-11-16 15:55:42,711 INFO dubbing.pipeline: [identity] running (0cf315dae520265c)
+2026-11-16 15:55:43,434 INFO speechbrain.utils.fetching: Fetch hyperparams.yaml: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-11-16 15:55:44,632 INFO speechbrain.utils.fetching: Fetch: Local file found, copying 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\huggingface\hub\models--speechbrain--spkrec-ecapa-voxceleb\snapshots\0f99f2d0ebe89ac095bcc5903c4dd8f72b367286\hyperparams.yaml' -> 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\speechbrain\speechbrain--spkrec-ecapa-voxceleb\hyperparams.yaml'
+2026-11-16 15:55:44,979 INFO speechbrain.utils.fetching: Fetch embedding_model.ckpt: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-11-16 15:55:45,242 WARNING huggingface_hub.file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-11-16 15:56:01,566 INFO speechbrain.utils.fetching: Fetch: Local file found, copying 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\huggingface\hub\models--speechbrain--spkrec-ecapa-voxceleb\snapshots\0f99f2d0ebe89ac095bcc5903c4dd8f72b367286\embedding_model.ckpt' -> 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\speechbrain\speechbrain--spkrec-ecapa-voxceleb\embedding_model.ckpt'
+2026-11-16 15:56:01,698 INFO speechbrain.utils.fetching: Fetch mean_var_norm_emb.ckpt: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-11-16 15:56:02,007 INFO speechbrain.utils.fetching: Fetch: Local file found, copying 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\huggingface\hub\models--speechbrain--spkrec-ecapa-voxceleb\snapshots\0f99f2d0ebe89ac095bcc5903c4dd8f72b367286\mean_var_norm_emb.ckpt' -> 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\speechbrain\speechbrain--spkrec-ecapa-voxceleb\mean_var_norm_emb.ckpt'
+2026-11-16 15:56:02,012 INFO speechbrain.utils.fetching: Fetch classifier.ckpt: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-11-16 15:56:02,267 WARNING huggingface_hub.file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-11-16 15:56:03,276 INFO speechbrain.utils.fetching: Fetch: Local file found, copying 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\huggingface\hub\models--speechbrain--spkrec-ecapa-voxceleb\snapshots\0f99f2d0ebe89ac095bcc5903c4dd8f72b367286\classifier.ckpt' -> 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\speechbrain\speechbrain--spkrec-ecapa-voxceleb\classifier.ckpt'
+2026-11-16 15:56:03,295 INFO speechbrain.utils.fetching: Fetch label_encoder.txt: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-11-16 15:56:03,574 INFO speechbrain.utils.fetching: Fetch: Local file found, copying 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\huggingface\hub\models--speechbrain--spkrec-ecapa-voxceleb\snapshots\0f99f2d0ebe89ac095bcc5903c4dd8f72b367286\label_encoder.txt' -> 'G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\speechbrain\speechbrain--spkrec-ecapa-voxceleb\label_encoder.ckpt'
+2026-11-16 15:56:03,602 INFO speechbrain.utils.parameter_transfer: Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-11-16 15:56:06,602 INFO dubbing.pipeline: [identity] completed in 23.9s
+2026-11-16 15:56:06,632 INFO dubbing.jobs: Job 136b149fe7554f90841f4464ec826df5 analysed: 7 segments, 4 speakers; awaiting review
+2026-11-16 16:05:58,446 INFO dubbing.pipeline: Input input.mp4: 35.0s, 1920x1080 @ 60.000 fps, video=h264, audio streams=1
+2026-11-16 16:05:58,447 INFO dubbing.pipeline: Workspace: G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\work\2b9a3c27e66857cf | device: cpu
+2026-11-16 16:05:58,450 INFO dubbing.pipeline: [extract] cache hit (8390ba5c8aa294eb)
+2026-11-16 16:05:58,451 INFO dubbing.pipeline: [separate] cache hit (9973917a188881da)
+2026-11-16 16:05:58,452 INFO dubbing.pipeline: [voices] cache hit (927ee1a9fa5cdfb6)
+2026-11-16 16:05:58,459 WARNING dubbing.pipeline: Speaker 1: cloning from only 4.8s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower.
+2026-11-16 16:05:58,461 INFO dubbing.pipeline: Voice SPEAKER_00 (Speaker 1): requested=clone resolved=clone ref=4.8s
+2026-11-16 16:05:58,462 WARNING dubbing.pipeline: Speaker 2: cloning from only 0.0s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower.
+2026-11-16 16:05:58,462 INFO dubbing.pipeline: Voice SPEAKER_01 (Speaker 2): requested=clone resolved=clone ref=1.3s
+2026-11-16 16:05:58,462 WARNING dubbing.pipeline: Speaker 3: cloning from only 2.1s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower.
+2026-11-16 16:05:58,463 INFO dubbing.pipeline: Voice SPEAKER_02 (Speaker 3): requested=clone resolved=clone ref=2.1s
+2026-11-16 16:05:58,463 INFO dubbing.pipeline: Voice SPEAKER_03 (Speaker 4): requested=clone resolved=clone ref=10.0s
+2026-11-16 16:05:58,469 INFO dubbing.pipeline: [synthesize] running (814e3efe557f0098)
+2026-11-16 16:06:03,006 INFO TTS.utils.manage: Downloading model to G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\tts\tts\tts_models--multilingual--multi-dataset--xtts_v2
+2026-11-16 16:06:03,832 INFO TTS.utils.manage: Model's license - CPML
+2026-11-16 16:06:03,832 INFO TTS.utils.manage: Check https://tts-hub.github.io/cpml for more info.
+2026-11-16 16:06:03,876 INFO TTS.tts.models: Using model: xtts
+2026-11-16 16:08:43,652 INFO TTS.utils.synthesizer: Language `cs` not supported by pySBD, using English for sentence splitting.
+2026-11-16 16:08:43,747 INFO TTS.utils.synthesizer: Language `hu` not supported by pySBD, using English for sentence splitting.
+2026-11-16 16:08:43,748 INFO TTS.utils.synthesizer: Language `ko` not supported by pySBD, using English for sentence splitting.
+2026-11-16 16:08:43,748 INFO TTS.utils.synthesizer: Language `pt` not supported by pySBD, using English for sentence splitting.
+2026-11-16 16:08:43,749 INFO TTS.utils.synthesizer: Language `tr` not supported by pySBD, using English for sentence splitting.
+2026-11-16 16:08:43,749 INFO TTS.utils.synthesizer: Segmenters initialized for: dict_keys(['ar', 'cs', 'de', 'en', 'es', 'fr', 'hi', 'hu', 'it', 'ja', 'ko', 'nl', 'pl', 'pt', 'ru', 'tr', 'zh-cn'])
+2026-11-16 16:09:15,463 INFO dubbing.pipeline: [seg_00002] 425% too long; refined to 5 chars (attempt 1)
+2026-11-16 16:09:16,853 INFO dubbing.pipeline: [seg_00004] 194% too long; refined to 11 chars (attempt 1)
+2026-11-16 16:09:51,377 INFO dubbing.pipeline: [seg_00005] 350% too long; refined to 13 chars (attempt 1)
+2026-11-16 16:10:40,918 INFO dubbing.pipeline: [seg_00006] 338% too long; refined to 3 chars (attempt 1)
+2026-11-16 16:10:42,424 INFO dubbing.pipeline: [seg_00007] 74% too long; refined to 14 chars (attempt 1)
+2026-11-16 16:11:15,853 WARNING dubbing.pipeline: 5 segment(s) still exceed their slot after refinement and 1.40x tempo; see timing_report.json
+2026-11-16 16:11:15,866 INFO dubbing.pipeline: [synthesize] completed in 317.4s
+2026-11-16 16:11:15,891 INFO dubbing.pipeline: [mix] running (2bb97f5632a0a2fb)
+2026-11-16 16:11:16,634 INFO dubbing.pipeline: mix: dialogue needed +6.5 dB to reach -17.0 LUFS; capped at +6.0 dB (DIALOGUE_NORMALIZE_MAX_DB)
+2026-11-16 16:11:16,634 INFO dubbing.pipeline: mix: bed (-14.9 LUFS) louder than dialogue - 6 dB; lowered -8.6 dB
+2026-11-16 16:11:16,798 INFO dubbing.pipeline: [mix] completed in 0.9s
+2026-11-16 16:11:21,167 INFO dubbing.pipeline: Output validated: input.hindi.mp4 (35.0s)
+2026-11-16 16:11:29,282 INFO dubbing.jobs: Job 136b149fe7554f90841f4464ec826df5 succeeded -> G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\outputs\136b149fe7554f90841f4464ec826df5\input.hindi.mp4

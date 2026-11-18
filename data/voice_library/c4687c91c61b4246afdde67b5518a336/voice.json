@@ -1,0 +1,61 @@
+{
+  "voice_id": "c4687c91c61b4246afdde67b5518a336",
+  "voice_name": "Supporting Female — Rani",
+  "kind": "cast",
+  "engine": "parler",
+  "language": "hi",
+  "gender": "female",
+  "description": "Supporting Female (catalog slot; audition and approve before use)",
+  "catalog_slot": "HIN_FEMALE_SUPPORT_01",
+  "reference_available": false,
+  "reference_transcript": null,
+  "reference_language": "hi",
+  "reference_duration_seconds": 0.0,
+  "reference_speech_seconds": 0.0,
+  "reference_sample_rate": null,
+  "reference_quality": [],
+  "reference_sha256": null,
+  "voice_description_prompt": "Rani speaks with a natural female pitch and a calm, conversational, slightly expressive tone at a normal pace. The recording is of very high quality, very clear audio, and close-sounding with no background noise.",
+  "prompt_version": 1,
+  "prompt_versions": [
+    {
+      "version": 1,
+      "prompt": "Rani speaks with a natural female pitch and a calm, conversational, slightly expressive tone at a normal pace. The recording is of very high quality, very clear audio, and close-sounding with no background noise.",
+      "created_at": "2026-11-17T09:40:50.205799Z"
+    }
+  ],
+  "sample_text": "नमस्ते, मेरा नाम अर्जुन है। आज हम एक नई कहानी की शुरुआत करने जा रहे हैं।",
+  "generation_parameters": {},
+  "seed": null,
+  "model_id": "ai4bharat/indic-parler-tts",
+  "model_revision": null,
+  "supported_language_status": "validated",
+  "license_metadata": {
+    "license": "See the model card of PARLER_MODEL (Apache-2.0 for indic-parler-tts weights; verify)",
+    "commercial_use": null
+  },
+  "quality_benchmark": {},
+  "approved": true,
+  "approved_at": "2026-11-17T12:31:42.134056Z",
+  "approved_config_hash": "1ba2606b9ff49b06",
+  "approval_note": "Real Parler Hindi audition verified: non-empty WAV, 0.87s at 44100 Hz, RMS 0.1691, peak 0.8298; no clipping or reported audition problems.",
+  "active": true,
+  "preview": {
+    "text": "नमस्ते दुनिया",
+    "generated_at": "2026-11-17T12:31:36.425384Z",
+    "config_hash": "1ba2606b9ff49b06",
+    "prompt_version": 1,
+    "artifact_name": "auditions/647d2e5b802840e39348f8b7e3cc3363.wav",
+    "engine": "parler",
+    "model_id": "ai4bharat/indic-parler-tts",
+    "model_revision": null,
+    "duration_seconds": 0.87,
+    "run_id": "647d2e5b802840e39348f8b7e3cc3363",
+    "problems": []
+  },
+  "origin": {
+    "catalog": true
+  },
+  "created_at": "2026-11-17T09:40:50.205799Z",
+  "updated_at": "2026-11-17T12:31:42.134056Z"
+}

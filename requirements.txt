@@ -1,0 +1,27 @@
+# Python 3.10 - 3.12 on Windows x64 (3.11 recommended).
+# torch / torchaudio are installed FIRST by setup_and_run.bat from the PyTorch index that matches
+# your GPU (cu126 / cu128) or CPU. The pins below match that install so pip keeps it untouched.
+torch==2.8.0
+torchaudio==2.8.0
+numpy>=1.26,<2.0
+
+# API
+fastapi==0.120.0
+uvicorn[standard]==0.38.0
+pydantic>=2.9,<3
+pydantic-settings>=2.6,<3
+python-multipart>=0.0.20
+httpx>=0.28,<1
+
+# Audio I/O
+soundfile>=0.12.1
+
+# Speech stack
+faster-whisper==1.2.1
+pyannote.audio==3.4.0
+demucs==4.1.0
+# pyannote 3.x needs huggingface-hub < 1.0
+huggingface-hub>=0.36,<1.0
+
+# Tests
+pytest>=8

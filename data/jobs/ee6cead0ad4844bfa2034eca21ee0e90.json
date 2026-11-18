@@ -1,0 +1,27 @@
+{
+  "job_id": "ee6cead0ad4844bfa2034eca21ee0e90",
+  "state": "failed",
+  "stage": "transcribe",
+  "progress": 0.18,
+  "message": "Failed",
+  "input_filename": "35-sec-_video.mp4",
+  "input_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\uploads\\ee6cead0ad4844bfa2034eca21ee0e90\\input.mp4",
+  "options": {
+    "source_language": "en",
+    "mix_mode": "preserve_background",
+    "translation_engine": "openrouter",
+    "min_speakers": 2,
+    "max_speakers": 3
+  },
+  "created_at": "2026-10-29T09:40:37.978429Z",
+  "started_at": "2026-10-29T09:40:37.990733Z",
+  "finished_at": "2026-10-29T09:40:55.734229Z",
+  "output_path": null,
+  "manifest_path": null,
+  "timing_report_path": null,
+  "source_language": null,
+  "speakers": null,
+  "segments": null,
+  "warnings": [],
+  "error": "RuntimeError: mkl_malloc: failed to allocate memory"
+}

@@ -1,0 +1,158 @@
+{
+  "job_id": "21fd4b09003642028a0e27bea1bc1250",
+  "state": "succeeded",
+  "stage": "done",
+  "progress": 1.0,
+  "message": "Dubbing complete",
+  "input_filename": "Everyday English Conversation Practice  3 minutes English Listening - Vocab - English Vocabulary (360p, h264).mp4",
+  "input_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\projects\\eb051896b00f4f8d84f295d6b22a620c\\videos\\60912f57e1624c888cb7fb05db698bf1\\original\\input.mp4",
+  "options": {
+    "source_language": null,
+    "mix_mode": "preserve_background",
+    "translation_engine": "openrouter",
+    "min_speakers": 2,
+    "max_speakers": 4
+  },
+  "created_at": "2026-10-31T09:25:41.815664Z",
+  "started_at": "2026-10-31T09:33:38.235495Z",
+  "finished_at": "2026-10-31T10:51:14.384494Z",
+  "output_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\21fd4b09003642028a0e27bea1bc1250\\input.hindi.mp4",
+  "manifest_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\21fd4b09003642028a0e27bea1bc1250\\manifest.json",
+  "timing_report_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\21fd4b09003642028a0e27bea1bc1250\\timing_report.json",
+  "source_language": "en",
+  "speakers": 3,
+  "segments": 77,
+  "warnings": [
+    "Speaker 2: cloning from only 4.8s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower."
+  ],
+  "error": null,
+  "project_id": "eb051896b00f4f8d84f295d6b22a620c",
+  "video_id": "60912f57e1624c888cb7fb05db698bf1",
+  "review_required": true,
+  "phase": "generation",
+  "approved_version": 1,
+  "stage_history": [
+    {
+      "stage": "validate",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-10-31T09:33:38.237490Z",
+      "finished_at": "2026-10-31T09:33:43.373659Z",
+      "message": "Probing input video"
+    },
+    {
+      "stage": "extract",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-10-31T09:33:43.373659Z",
+      "finished_at": "2026-10-31T09:33:43.380636Z",
+      "message": "Extracting audio"
+    },
+    {
+      "stage": "separate",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-10-31T09:33:43.380636Z",
+      "finished_at": "2026-10-31T09:33:43.734554Z",
+      "message": "Separation done"
+    },
+    {
+      "stage": "transcribe",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-10-31T09:33:43.734554Z",
+      "finished_at": "2026-10-31T09:40:03.446792Z",
+      "message": "Loading Whisper medium"
+    },
+    {
+      "stage": "diarize",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-10-31T09:40:03.446792Z",
+      "finished_at": "2026-10-31T09:47:43.208580Z",
+      "message": "Loading pyannote"
+    },
+    {
+      "stage": "align",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-10-31T09:47:43.208580Z",
+      "finished_at": "2026-10-31T09:47:46.738911Z",
+      "message": "77 dialogue blocks, 3 speakers"
+    },
+    {
+      "stage": "translate",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-10-31T09:47:46.738911Z",
+      "finished_at": "2026-10-31T09:47:59.048604Z",
+      "message": "Translating to Hindi (19%)"
+    },
+    {
+      "stage": "voices",
+      "phase": "analysis",
+      "status": "completed",
+      "started_at": "2026-10-31T09:47:59.048604Z",
+      "finished_at": "2026-10-31T09:47:59.071692Z",
+      "message": "3 voice references"
+    },
+    {
+      "stage": "prepare",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-10-31T09:54:10.455278Z",
+      "finished_at": "2026-10-31T09:54:10.823337Z",
+      "message": "Probing input video"
+    },
+    {
+      "stage": "voices",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-10-31T09:54:10.823337Z",
+      "finished_at": "2026-10-31T09:54:10.826330Z",
+      "message": "3 voice references"
+    },
+    {
+      "stage": "resolve_voices",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-10-31T09:54:10.826330Z",
+      "finished_at": "2026-10-31T09:54:10.843291Z",
+      "message": "Resolving voices"
+    },
+    {
+      "stage": "synthesize",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-10-31T09:54:10.843291Z",
+      "finished_at": "2026-10-31T10:50:59.397840Z",
+      "message": "Loading XTTS-v2"
+    },
+    {
+      "stage": "mix",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-10-31T10:50:59.397840Z",
+      "finished_at": "2026-10-31T10:50:59.833059Z",
+      "message": "Mixing"
+    },
+    {
+      "stage": "mux",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-10-31T10:50:59.833059Z",
+      "finished_at": "2026-10-31T10:51:12.074556Z",
+      "message": "Muxing Hindi audio into video"
+    },
+    {
+      "stage": "validate_output",
+      "phase": "generation",
+      "status": "completed",
+      "started_at": "2026-10-31T10:51:12.074556Z",
+      "finished_at": "2026-10-31T10:51:14.383485Z",
+      "message": "Validating output"
+    }
+  ],
+  "analysis_completed_at": "2026-10-31T09:47:59.073686Z",
+  "generation_started_at": "2026-10-31T09:54:10.419207Z"
+}

@@ -1,0 +1,14 @@
+.env
+.venv/
+.venv-engines/
+node_modules/
+data/models/
+data/work/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+nul

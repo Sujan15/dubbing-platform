@@ -1,0 +1,114 @@
+{
+  "source_language": "en",
+  "target_language": "hi",
+  "mix_mode_requested": "preserve_background",
+  "mix_mode_used": "preserve_background",
+  "separation": true,
+  "separation_fallback": false,
+  "speakers": 4,
+  "segments": 7,
+  "voices": {
+    "SPEAKER_00": {
+      "speaker_id": "SPEAKER_00",
+      "display_name": "Speaker 1",
+      "requested_source": "cast",
+      "resolved_source": "cast",
+      "reference_seconds": 0.0,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": [],
+      "engine": "parler",
+      "voice_id": "9cc43a6bf164462ab87dc5790af7820f",
+      "character_id": null,
+      "voice_profile_id": null,
+      "reference_transcript": null,
+      "voice_prompt": "Rohit speaks with a balanced, confident male pitch and a natural, expressive tone at a moderate pace. The recording is of very high quality, sounding very clear and close up with almost no background noise.",
+      "generation_parameters": {},
+      "seed": null
+    },
+    "SPEAKER_01": {
+      "speaker_id": "SPEAKER_01",
+      "display_name": "Speaker 2",
+      "requested_source": "cast",
+      "resolved_source": "cast",
+      "reference_seconds": 0.0,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": [],
+      "engine": "parler",
+      "voice_id": "0f2af35b26e44195bd3b5841287e3abc",
+      "character_id": null,
+      "voice_profile_id": null,
+      "reference_transcript": null,
+      "voice_prompt": "Rohit speaks at a moderate pace with a neutral, conversational male pitch and a slightly monotone, steady delivery. The recording is very clear audio, close-sounding, with no background noise.",
+      "generation_parameters": {},
+      "seed": null
+    },
+    "SPEAKER_02": {
+      "speaker_id": "SPEAKER_02",
+      "display_name": "Speaker 3",
+      "requested_source": "cast",
+      "resolved_source": "cast",
+      "reference_seconds": 0.0,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": [],
+      "engine": "parler",
+      "voice_id": "7f74a76ec8b04b0baaa4c9d824f0663c",
+      "character_id": null,
+      "voice_profile_id": null,
+      "reference_transcript": null,
+      "voice_prompt": "Divya speaks with a warm, slightly high-pitched female voice and an expressive, engaging tone at a moderate pace. The recording is very clear audio, close-sounding, and captured in a studio environment with no background noise.",
+      "generation_parameters": {},
+      "seed": null
+    },
+    "SPEAKER_03": {
+      "speaker_id": "SPEAKER_03",
+      "display_name": "Speaker 4",
+      "requested_source": "cast",
+      "resolved_source": "cast",
+      "reference_seconds": 0.0,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": [],
+      "engine": "parler",
+      "voice_id": "72f35bd8a0f44c43963519c3b69360f3",
+      "character_id": null,
+      "voice_profile_id": null,
+      "reference_transcript": null,
+      "voice_prompt": "Aman's deep, low-pitched male voice delivers speech with an intense, slightly slower, and authoritative tone. The recording is very clear audio, close-sounding, with no background noise.",
+      "generation_parameters": {},
+      "seed": null
+    }
+  },
+  "engines": [
+    "parler"
+  ],
+  "qa_status": "REVIEW_REQUIRED",
+  "qa_metrics": {
+    "original_dialogue_leakage_score": 0.0009,
+    "separation_quality_score": 0.958,
+    "background_preservation_score": 0.056
+  },
+  "warnings": [
+    "QA REVIEW_REQUIRED: dialogue_loudness - target -17.0 LUFS",
+    "QA REVIEW_REQUIRED: dialogue_bed_margin - dialogue minus bed integrated loudness (min 6 dB, static; dynamic ducking adds more under speech)"
+  ],
+  "runtime": {
+    "device": "cpu",
+    "whisper": "medium",
+    "whisper_compute": "int8",
+    "diarization": "pyannote/speaker-diarization-3.1",
+    "tts_engines": "indicf5,parler",
+    "separation": "htdemucs",
+    "python": "3.12.0"
+  },
+  "output": {
+    "file": "input.hindi.mp4",
+    "duration": 35.05
+  }
+}

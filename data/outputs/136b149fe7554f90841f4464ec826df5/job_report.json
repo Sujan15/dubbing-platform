@@ -1,0 +1,126 @@
+{
+  "source_language": "en",
+  "target_language": "hi",
+  "mix_mode_requested": "preserve_background",
+  "mix_mode_used": "preserve_background",
+  "separation": true,
+  "separation_fallback": false,
+  "speakers": 4,
+  "segments": 7,
+  "voices": {
+    "SPEAKER_00": {
+      "speaker_id": "SPEAKER_00",
+      "display_name": "Speaker 1",
+      "requested_source": "clone",
+      "resolved_source": "clone",
+      "reference_seconds": 4.8,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": [
+        "Speaker 1: cloning from only 4.8s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower."
+      ],
+      "engine": "xtts",
+      "voice_id": null,
+      "character_id": null,
+      "voice_profile_id": null,
+      "reference_transcript": null,
+      "voice_prompt": null,
+      "generation_parameters": {},
+      "seed": null
+    },
+    "SPEAKER_01": {
+      "speaker_id": "SPEAKER_01",
+      "display_name": "Speaker 2",
+      "requested_source": "clone",
+      "resolved_source": "clone",
+      "reference_seconds": 1.34,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": [
+        "Speaker 2: cloning from only 0.0s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower."
+      ],
+      "engine": "xtts",
+      "voice_id": null,
+      "character_id": null,
+      "voice_profile_id": null,
+      "reference_transcript": null,
+      "voice_prompt": null,
+      "generation_parameters": {},
+      "seed": null
+    },
+    "SPEAKER_02": {
+      "speaker_id": "SPEAKER_02",
+      "display_name": "Speaker 3",
+      "requested_source": "clone",
+      "resolved_source": "clone",
+      "reference_seconds": 2.08,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": [
+        "Speaker 3: cloning from only 2.1s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower."
+      ],
+      "engine": "xtts",
+      "voice_id": null,
+      "character_id": null,
+      "voice_profile_id": null,
+      "reference_transcript": null,
+      "voice_prompt": null,
+      "generation_parameters": {},
+      "seed": null
+    },
+    "SPEAKER_03": {
+      "speaker_id": "SPEAKER_03",
+      "display_name": "Speaker 4",
+      "requested_source": "clone",
+      "resolved_source": "clone",
+      "reference_seconds": 9.97,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": [],
+      "engine": "xtts",
+      "voice_id": null,
+      "character_id": null,
+      "voice_profile_id": null,
+      "reference_transcript": null,
+      "voice_prompt": null,
+      "generation_parameters": {},
+      "seed": null
+    }
+  },
+  "engines": [
+    "xtts"
+  ],
+  "qa_status": "FAILED",
+  "qa_metrics": {
+    "original_dialogue_leakage_score": 0.0217,
+    "separation_quality_score": 0.964,
+    "background_preservation_score": 0.1077
+  },
+  "warnings": [
+    "Speaker 1: cloning from only 4.8s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower.",
+    "Speaker 2: cloning from only 0.0s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower.",
+    "Speaker 3: cloning from only 2.1s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower.",
+    "QA REVIEW_REQUIRED: dialogue_loudness - target -17.0 LUFS",
+    "QA REVIEW_REQUIRED: dialogue_bed_margin - dialogue minus bed integrated loudness (min 6 dB, static; dynamic ducking adds more under speech)",
+    "QA FAILED: clipping - peak 1.5435",
+    "QA REVIEW_REQUIRED: timing_overflow - lines longer than their slot after max speed-up; 4 line(s) run into the next line"
+  ],
+  "runtime": {
+    "device": "cpu",
+    "whisper": "medium",
+    "whisper_compute": "int8",
+    "diarization": "pyannote/speaker-diarization-3.1",
+    "tts": "tts_models/multilingual/multi-dataset/xtts_v2",
+    "tts_engines": "indicf5,parler,xtts",
+    "separation": "htdemucs",
+    "python": "3.12.0"
+  },
+  "output": {
+    "file": "input.hindi.mp4",
+    "duration": 35.05
+  }
+}

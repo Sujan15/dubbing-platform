@@ -1,0 +1,27 @@
+2026-10-29 15:40:38,102 INFO dubbing.pipeline: Input input.mp4: 35.0s, 1920x1080 @ 60.000 fps, video=h264, audio streams=1
+2026-10-29 15:40:38,181 INFO dubbing.pipeline: Workspace: G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\work\2b9a3c27e66857cf | device: cpu
+2026-10-29 15:40:38,186 INFO dubbing.pipeline: [extract] running (8390ba5c8aa294eb)
+2026-10-29 15:40:38,983 INFO dubbing.pipeline: [extract] completed in 0.8s
+2026-10-29 15:40:38,986 WARNING dubbing.pipeline: No CUDA GPU: skipping Demucs and using the full mixed track for ASR, voice cloning and mixing. Set SEPARATION_ALLOW_CPU=true to separate on CPU (slow, much better quality).
+2026-10-29 15:40:38,991 INFO dubbing.pipeline: [transcribe] running (be3904f0fb44af98)
+2026-10-29 15:40:55,720 ERROR dubbing.jobs: Job ee6cead0ad4844bfa2034eca21ee0e90 failed: mkl_malloc: failed to allocate memory
+Traceback (most recent call last):
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\app\jobs.py", line 134, in _run
+    result = self.pipeline.run(Path(rec.input_path), opts, out_dir, self._progress_cb(job_id))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\services\pipeline.py", line 160, in run
+    d_asr = self._stage(ws, "transcribe", 1, asr_params, [speech_16k],
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\services\pipeline.py", line 291, in _stage
+    produce(tmp)
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\services\pipeline.py", line 161, in <lambda>
+    lambda out: self._transcribe(speech_16k, out, options.source_language, info.duration, p))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\services\pipeline.py", line 407, in _transcribe
+    model = WhisperModel(self.s.whisper_model, device=self.device, compute_type=self._whisper_compute_type(),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\.venv\Lib\site-packages\faster_whisper\transcribe.py", line 689, in __init__
+    self.model = ctranslate2.models.Whisper(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mkl_malloc: failed to allocate memory
+

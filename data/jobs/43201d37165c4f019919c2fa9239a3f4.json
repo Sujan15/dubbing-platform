@@ -1,0 +1,27 @@
+{
+  "job_id": "43201d37165c4f019919c2fa9239a3f4",
+  "state": "failed",
+  "stage": "transcribe",
+  "progress": 0.18,
+  "message": "Failed",
+  "input_filename": "video.mp4",
+  "input_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\uploads\\43201d37165c4f019919c2fa9239a3f4\\input.mp4",
+  "options": {
+    "source_language": "en",
+    "mix_mode": "preserve_background",
+    "translation_engine": "openrouter",
+    "min_speakers": 1,
+    "max_speakers": 1
+  },
+  "created_at": "2026-10-29T07:03:41.293855Z",
+  "started_at": "2026-10-29T07:03:41.305824Z",
+  "finished_at": "2026-10-29T07:09:14.110045Z",
+  "output_path": null,
+  "manifest_path": null,
+  "timing_report_path": null,
+  "source_language": null,
+  "speakers": null,
+  "segments": null,
+  "warnings": [],
+  "error": "TypeError: open() got an unexpected keyword argument 'metadata_errors'"
+}

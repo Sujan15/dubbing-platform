@@ -1,0 +1,16 @@
+{
+  "project_id": "3debc097f06d4f748724b7a341350bd9",
+  "name": "dounga 1",
+  "description": "",
+  "target_language": "hi",
+  "settings": {
+    "source_language": null,
+    "mix_mode": "preserve_background",
+    "translation_engine": null,
+    "review_enabled": null
+  },
+  "status": "active",
+  "kind": "standalone",
+  "created_at": "2026-11-18T03:35:04.674526Z",
+  "updated_at": "2026-11-18T03:48:02.058335Z"
+}

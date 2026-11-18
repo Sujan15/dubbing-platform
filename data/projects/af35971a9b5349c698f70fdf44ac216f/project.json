@@ -1,0 +1,16 @@
+{
+  "project_id": "af35971a9b5349c698f70fdf44ac216f",
+  "name": "demo for v3",
+  "description": "",
+  "target_language": "hi",
+  "settings": {
+    "source_language": null,
+    "mix_mode": "preserve_background",
+    "translation_engine": null,
+    "review_enabled": null
+  },
+  "status": "active",
+  "kind": "standalone",
+  "created_at": "2026-11-16T09:54:28.862317Z",
+  "updated_at": "2026-11-16T10:11:29.287300Z"
+}

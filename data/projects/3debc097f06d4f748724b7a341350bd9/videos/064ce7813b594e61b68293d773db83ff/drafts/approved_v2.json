@@ -1,0 +1,317 @@
+{
+  "manifest_version": 1,
+  "version": 2,
+  "job_id": "59c02904e17749aea96190aa1c1c6cc7",
+  "project_id": "3debc097f06d4f748724b7a341350bd9",
+  "video_id": "064ce7813b594e61b68293d773db83ff",
+  "source_language": "en",
+  "target_language": "hi",
+  "pipeline_version": "2.0",
+  "media_duration": 35.05,
+  "mix_mode": "preserve_background",
+  "created_at": "2026-11-18T03:36:23.183118Z",
+  "updated_at": "2026-11-18T03:41:13.784281Z",
+  "review_status": "approved",
+  "approved_version": 2,
+  "approved_at": "2026-11-18T03:41:21.064117Z",
+  "segments": [
+    {
+      "segment_id": "seg_00001",
+      "start": 4.56,
+      "end": 9.36,
+      "original_text": "What's he been doing absolutely nothing",
+      "translated_text": "वो क्या कर रहा है, बिलकुल कुछ नहीं",
+      "machine_translation": "वो क्या कर रहा है, बिलकुल कुछ नहीं",
+      "speaker_id": "SPEAKER_00",
+      "confidence": 0.748,
+      "speaker_confidence": 0.334,
+      "review_status": "pending",
+      "warnings": [
+        "Low speaker-attribution confidence (0.33)."
+      ],
+      "speaker_display_name": null,
+      "voice_source": null,
+      "default_voice_id": null,
+      "library_speaker_id": null,
+      "reference_duration_seconds": null
+    },
+    {
+      "segment_id": "seg_00002",
+      "start": 10.8,
+      "end": 12.05,
+      "original_text": "where the stones",
+      "translated_text": "पत्थर कहाँ हैं",
+      "machine_translation": "पत्थर कहाँ हैं",
+      "speaker_id": "SPEAKER_03",
+      "confidence": 0.819,
+      "speaker_confidence": 0.598,
+      "review_status": "pending",
+      "warnings": [],
+      "speaker_display_name": null,
+      "voice_source": null,
+      "default_voice_id": null,
+      "library_speaker_id": null,
+      "reference_duration_seconds": null
+    },
+    {
+      "segment_id": "seg_00003",
+      "start": 13.44,
+      "end": 20.63,
+      "original_text": "Somewhere under all this all I know is he doesn't have him. So we keep it that way.",
+      "translated_text": "कहीं इस सब के नीचे हैं, मुझे बस इतना पता है कि उसके पास नहीं हैं। तो हम ऐसा ही रखते हैं।",
+      "machine_translation": "कहीं इस सब के नीचे हैं, मुझे बस इतना पता है कि उसके पास नहीं हैं। तो हम ऐसा ही रखते हैं।",
+      "speaker_id": "SPEAKER_03",
+      "confidence": 0.91,
+      "speaker_confidence": 0.444,
+      "review_status": "pending",
+      "warnings": [
+        "Low speaker-attribution confidence (0.44)."
+      ],
+      "speaker_display_name": null,
+      "voice_source": null,
+      "default_voice_id": null,
+      "library_speaker_id": null,
+      "reference_duration_seconds": null
+    },
+    {
+      "segment_id": "seg_00004",
+      "start": 20.83,
+      "end": 22.17,
+      "original_text": "You know, it's a trap, right?",
+      "translated_text": "तुम जानते हो, ये एक जाल है, सही?",
+      "machine_translation": "तुम जानते हो, ये एक जाल है, सही?",
+      "speaker_id": "SPEAKER_01",
+      "confidence": 0.847,
+      "speaker_confidence": 0.667,
+      "review_status": "pending",
+      "warnings": [],
+      "speaker_display_name": null,
+      "voice_source": null,
+      "default_voice_id": null,
+      "library_speaker_id": null,
+      "reference_duration_seconds": null
+    },
+    {
+      "segment_id": "seg_00005",
+      "start": 23.19,
+      "end": 24.72,
+      "original_text": "Yeah, I don't much care",
+      "translated_text": "हाँ, मुझे ज्यादा परवाह नहीं है",
+      "machine_translation": "हाँ, मुझे ज्यादा परवाह नहीं है",
+      "speaker_id": "SPEAKER_03",
+      "confidence": 0.992,
+      "speaker_confidence": 0.486,
+      "review_status": "pending",
+      "warnings": [
+        "Low speaker-attribution confidence (0.49)."
+      ],
+      "speaker_display_name": null,
+      "voice_source": null,
+      "default_voice_id": null,
+      "library_speaker_id": null,
+      "reference_duration_seconds": null
+    },
+    {
+      "segment_id": "seg_00006",
+      "start": 26.22,
+      "end": 26.68,
+      "original_text": "good",
+      "translated_text": "अच्छा",
+      "machine_translation": "अच्छा",
+      "speaker_id": "SPEAKER_02",
+      "confidence": 0.578,
+      "speaker_confidence": 0.587,
+      "review_status": "pending",
+      "warnings": [
+        "Low ASR confidence (0.58); check the original text.",
+        "Short line: speaker attribution is uncertain; verify the speaker."
+      ],
+      "speaker_display_name": null,
+      "voice_source": null,
+      "default_voice_id": null,
+      "library_speaker_id": null,
+      "reference_duration_seconds": null
+    },
+    {
+      "segment_id": "seg_00007",
+      "start": 28.11,
+      "end": 30.19,
+      "original_text": "Just as long as we're all in agreement",
+      "translated_text": "बस इतना कि हम सब सहमत हैं",
+      "machine_translation": "बस इतना कि हम सब सहमत हैं",
+      "speaker_id": "SPEAKER_02",
+      "confidence": 0.924,
+      "speaker_confidence": 0.926,
+      "review_status": "pending",
+      "warnings": [],
+      "speaker_display_name": null,
+      "voice_source": null,
+      "default_voice_id": null,
+      "library_speaker_id": null,
+      "reference_duration_seconds": null
+    }
+  ],
+  "speakers": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "display_name": "Speaker 1",
+      "color": 0,
+      "origin_labels": [
+        "SPEAKER_00"
+      ],
+      "segment_count": 1,
+      "total_speech_duration": 4.8,
+      "usable_reference_duration": 4.8,
+      "reference_available": true,
+      "voice_source": "cast",
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "available_voice_options": [
+        "clone",
+        "library",
+        "cast",
+        "character"
+      ],
+      "warnings": [
+        "Character unassigned: no characters with voice evidence yet"
+      ],
+      "engine": "parler",
+      "voice_id": "9cc43a6bf164462ab87dc5790af7820f",
+      "character_id": null,
+      "character_name": null,
+      "mapping_status": "unassigned",
+      "suggested_character_id": null,
+      "suggested_character_name": null,
+      "identity_confidence": null,
+      "identity_reason": "no characters with voice evidence yet",
+      "identity_candidates": [],
+      "previous_episode_matches": [],
+      "reference_quality": [],
+      "available_engines": [
+        "indicf5",
+        "parler"
+      ]
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "display_name": "Speaker 2",
+      "color": 1,
+      "origin_labels": [
+        "SPEAKER_01"
+      ],
+      "segment_count": 1,
+      "total_speech_duration": 1.34,
+      "usable_reference_duration": 0.0,
+      "reference_available": true,
+      "voice_source": "cast",
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "available_voice_options": [
+        "clone",
+        "library",
+        "cast",
+        "character"
+      ],
+      "warnings": [
+        "Character unassigned: only 0.0s of clean speech (< MIN_SEGMENT_IDENTITY_DURATION=1); too little evidence for an identity match"
+      ],
+      "engine": "parler",
+      "voice_id": "0f2af35b26e44195bd3b5841287e3abc",
+      "character_id": null,
+      "character_name": null,
+      "mapping_status": "unassigned",
+      "suggested_character_id": null,
+      "suggested_character_name": null,
+      "identity_confidence": null,
+      "identity_reason": "only 0.0s of clean speech (< MIN_SEGMENT_IDENTITY_DURATION=1); too little evidence for an identity match",
+      "identity_candidates": [],
+      "previous_episode_matches": [],
+      "reference_quality": [],
+      "available_engines": [
+        "indicf5",
+        "parler"
+      ]
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "display_name": "Speaker 3",
+      "color": 2,
+      "origin_labels": [
+        "SPEAKER_02"
+      ],
+      "segment_count": 2,
+      "total_speech_duration": 2.54,
+      "usable_reference_duration": 2.08,
+      "reference_available": true,
+      "voice_source": "cast",
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "available_voice_options": [
+        "clone",
+        "library",
+        "cast",
+        "character"
+      ],
+      "warnings": [
+        "Character unassigned: no characters with voice evidence yet"
+      ],
+      "engine": "parler",
+      "voice_id": "7f74a76ec8b04b0baaa4c9d824f0663c",
+      "character_id": null,
+      "character_name": null,
+      "mapping_status": "unassigned",
+      "suggested_character_id": null,
+      "suggested_character_name": null,
+      "identity_confidence": null,
+      "identity_reason": "no characters with voice evidence yet",
+      "identity_candidates": [],
+      "previous_episode_matches": [],
+      "reference_quality": [],
+      "available_engines": [
+        "indicf5",
+        "parler"
+      ]
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "display_name": "Speaker 4",
+      "color": 3,
+      "origin_labels": [
+        "SPEAKER_03"
+      ],
+      "segment_count": 3,
+      "total_speech_duration": 9.97,
+      "usable_reference_duration": 9.97,
+      "reference_available": true,
+      "voice_source": "cast",
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "available_voice_options": [
+        "clone",
+        "library",
+        "cast",
+        "character"
+      ],
+      "warnings": [
+        "Character unassigned: no characters with voice evidence yet"
+      ],
+      "engine": "parler",
+      "voice_id": "72f35bd8a0f44c43963519c3b69360f3",
+      "character_id": null,
+      "character_name": null,
+      "mapping_status": "unassigned",
+      "suggested_character_id": null,
+      "suggested_character_name": null,
+      "identity_confidence": null,
+      "identity_reason": "no characters with voice evidence yet",
+      "identity_candidates": [],
+      "previous_episode_matches": [],
+      "reference_quality": [],
+      "available_engines": [
+        "indicf5",
+        "parler"
+      ]
+    }
+  ],
+  "warnings": []
+}

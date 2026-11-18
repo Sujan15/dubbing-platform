@@ -1,0 +1,62 @@
+{
+  "source_language": "en",
+  "target_language": "hi",
+  "mix_mode_requested": "preserve_background",
+  "mix_mode_used": "preserve_background",
+  "separation": true,
+  "speakers": 3,
+  "segments": 77,
+  "voices": {
+    "SPEAKER_00": {
+      "speaker_id": "SPEAKER_00",
+      "display_name": "Speaker 1",
+      "requested_source": "clone",
+      "resolved_source": "clone",
+      "reference_seconds": 14.57,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": []
+    },
+    "SPEAKER_01": {
+      "speaker_id": "SPEAKER_01",
+      "display_name": "Speaker 2",
+      "requested_source": "clone",
+      "resolved_source": "clone",
+      "reference_seconds": 4.76,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": [
+        "Speaker 2: cloning from only 4.8s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower."
+      ]
+    },
+    "SPEAKER_02": {
+      "speaker_id": "SPEAKER_02",
+      "display_name": "Speaker 3",
+      "requested_source": "clone",
+      "resolved_source": "clone",
+      "reference_seconds": 15.0,
+      "library_speaker_id": null,
+      "default_voice_id": null,
+      "fallback_applied": false,
+      "warnings": []
+    }
+  },
+  "warnings": [
+    "Speaker 2: cloning from only 4.8s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower."
+  ],
+  "runtime": {
+    "device": "cpu",
+    "whisper": "medium",
+    "whisper_compute": "int8",
+    "diarization": "pyannote/speaker-diarization-3.1",
+    "tts": "tts_models/multilingual/multi-dataset/xtts_v2",
+    "separation": "htdemucs",
+    "python": "3.12.0"
+  },
+  "output": {
+    "file": "input.hindi.mp4",
+    "duration": 221.482041
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "summary": {
+    "fits": 6,
+    "tts_speed": 0,
+    "atempo": 1,
+    "atempo_after_refine": 0,
+    "atempo_capped_overflow": 0
+  },
+  "segments": [
+    {
+      "segment_id": "seg_00001",
+      "speaker_id": "SPEAKER_00",
+      "status": "fits",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 4.8,
+      "window_seconds": 5.2,
+      "generated_duration": 2.3,
+      "final_duration": 2.3,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 4.56,
+      "placement_end": 6.86,
+      "overflow_seconds": 0.0,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.52,
+      "attempts": [
+        {
+          "text": "वो क्या कर रहा है, बिलकुल कुछ नहीं",
+          "generated": 2.3,
+          "ratio": 0.4423
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00002",
+      "speaker_id": "SPEAKER_03",
+      "status": "fits",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 1.25,
+      "window_seconds": 1.65,
+      "generated_duration": 0.94,
+      "final_duration": 0.94,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 10.8,
+      "placement_end": 11.74,
+      "overflow_seconds": 0.0,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -9.0,
+      "attempts": [
+        {
+          "text": "पत्थर कहाँ हैं",
+          "generated": 0.94,
+          "ratio": 0.5697
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00003",
+      "speaker_id": "SPEAKER_03",
+      "status": "fits",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 7.19,
+      "window_seconds": 7.39,
+      "generated_duration": 5.76,
+      "final_duration": 5.76,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 13.44,
+      "placement_end": 19.2,
+      "overflow_seconds": 0.0,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.05,
+      "attempts": [
+        {
+          "text": "कहीं इस सब के नीचे हैं, मुझे बस इतना पता है कि उसके पास नहीं हैं। तो हम ऐसा ही रखते हैं।",
+          "generated": 5.76,
+          "ratio": 0.7794
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00004",
+      "speaker_id": "SPEAKER_01",
+      "status": "fits",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.34,
+      "window_seconds": 1.74,
+      "generated_duration": 1.23,
+      "final_duration": 1.23,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 20.83,
+      "placement_end": 22.06,
+      "overflow_seconds": 0.0,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.46,
+      "attempts": [
+        {
+          "text": "तुम जानते हो, ये एक जाल है, सही?",
+          "generated": 2.53,
+          "ratio": 1.454
+        },
+        {
+          "text": "पता है, ये जाल है, ना?",
+          "generated": 1.23,
+          "ratio": 0.7069
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00005",
+      "speaker_id": "SPEAKER_03",
+      "status": "atempo",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 1.53,
+      "window_seconds": 1.93,
+      "generated_duration": 2.03,
+      "final_duration": 1.945,
+      "speed_adjustment": 1.0518,
+      "tts_speed": 1.0,
+      "placement_start": 23.19,
+      "placement_end": 25.135,
+      "overflow_seconds": 0.415,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -9.0,
+      "attempts": [
+        {
+          "text": "हाँ, मुझे ज्यादा परवाह नहीं है",
+          "generated": 2.03,
+          "ratio": 1.0518
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00006",
+      "speaker_id": "SPEAKER_02",
+      "status": "fits",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 0.46,
+      "window_seconds": 0.86,
+      "generated_duration": 0.45,
+      "final_duration": 0.45,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 26.22,
+      "placement_end": 26.67,
+      "overflow_seconds": 0.0,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": 9.0,
+      "attempts": [
+        {
+          "text": "अच्छा",
+          "generated": 0.45,
+          "ratio": 0.5233
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00007",
+      "speaker_id": "SPEAKER_02",
+      "status": "fits",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 2.08,
+      "window_seconds": 2.48,
+      "generated_duration": 1.7,
+      "final_duration": 1.7,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 28.11,
+      "placement_end": 29.81,
+      "overflow_seconds": 0.0,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": 9.0,
+      "attempts": [
+        {
+          "text": "बस इतना कि हम सब सहमत हैं",
+          "generated": 1.7,
+          "ratio": 0.6855
+        }
+      ]
+    }
+  ]
+}

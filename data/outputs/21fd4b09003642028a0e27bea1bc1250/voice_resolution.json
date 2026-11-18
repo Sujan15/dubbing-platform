@@ -1,0 +1,37 @@
+{
+  "SPEAKER_00": {
+    "speaker_id": "SPEAKER_00",
+    "display_name": "Speaker 1",
+    "requested_source": "clone",
+    "resolved_source": "clone",
+    "reference_seconds": 14.57,
+    "library_speaker_id": null,
+    "default_voice_id": null,
+    "fallback_applied": false,
+    "warnings": []
+  },
+  "SPEAKER_01": {
+    "speaker_id": "SPEAKER_01",
+    "display_name": "Speaker 2",
+    "requested_source": "clone",
+    "resolved_source": "clone",
+    "reference_seconds": 4.76,
+    "library_speaker_id": null,
+    "default_voice_id": null,
+    "fallback_applied": false,
+    "warnings": [
+      "Speaker 2: cloning from only 4.8s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower."
+    ]
+  },
+  "SPEAKER_02": {
+    "speaker_id": "SPEAKER_02",
+    "display_name": "Speaker 3",
+    "requested_source": "clone",
+    "resolved_source": "clone",
+    "reference_seconds": 15.0,
+    "library_speaker_id": null,
+    "default_voice_id": null,
+    "fallback_applied": false,
+    "warnings": []
+  }
+}

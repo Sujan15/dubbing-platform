@@ -1,0 +1,54 @@
+2026-10-29 15:45:37,081 INFO dubbing.pipeline: Input input.mp4: 35.0s, 1920x1080 @ 60.000 fps, video=h264, audio streams=1
+2026-10-29 15:45:40,368 WARNING dubbing.pipeline: No CUDA GPU detected; inference runs on CPU (correct but slow).
+2026-10-29 15:45:40,368 INFO dubbing.pipeline: Workspace: G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\work\2b9a3c27e66857cf | device: cpu
+2026-10-29 15:45:40,372 INFO dubbing.pipeline: [extract] cache hit (8390ba5c8aa294eb)
+2026-10-29 15:45:40,374 INFO dubbing.pipeline: [separate] running (9973917a188881da)
+2026-10-29 15:45:42,147 WARNING huggingface_hub.file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-10-29 15:47:10,127 INFO dubbing.pipeline: [separate] completed in 89.7s
+2026-10-29 15:47:10,152 INFO dubbing.pipeline: [transcribe] running (a462effe8f36e01c)
+2026-10-29 15:47:23,609 INFO faster_whisper: Processing audio with duration 00:35.051
+2026-10-29 15:47:24,046 INFO faster_whisper: VAD filter removed 00:16.491 of audio
+2026-10-29 15:47:24,079 INFO dubbing.pipeline: Whisper language: en (p=1.00)
+2026-10-29 15:47:54,578 INFO dubbing.pipeline: [transcribe] completed in 44.4s
+2026-10-29 15:47:54,617 INFO dubbing.pipeline: [diarize] running (a11741f57c7e1984)
+2026-10-29 15:49:04,413 INFO dubbing.pipeline: [diarize] completed in 69.8s
+2026-10-29 15:49:04,426 INFO dubbing.pipeline: [align] running (3fc91dbc630b20f2)
+2026-10-29 15:49:04,431 INFO dubbing.pipeline: [align] completed in 0.0s
+2026-10-29 15:49:04,445 INFO dubbing.pipeline: [translate] running (33701a03abad5890)
+2026-10-29 15:49:07,644 INFO dubbing.pipeline: [translate] completed in 3.2s
+2026-10-29 15:49:07,659 INFO dubbing.pipeline: [voices] running (a969b41064a82958)
+2026-10-29 15:49:07,686 WARNING dubbing.pipeline: Speaker SPEAKER_01 has only 1.3s of reference audio; cloning will be less faithful.
+2026-10-29 15:49:07,692 WARNING dubbing.pipeline: Speaker SPEAKER_02 has only 2.1s of reference audio; cloning will be less faithful.
+2026-10-29 15:49:07,718 INFO dubbing.pipeline: [voices] completed in 0.1s
+2026-10-29 15:49:07,732 INFO dubbing.pipeline: [synthesize] running (cd2e53286da0338e)
+2026-10-29 15:49:11,986 INFO TTS.utils.manage: Downloading model to G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\tts\tts\tts_models--multilingual--multi-dataset--xtts_v2
+2026-10-29 15:49:12,266 INFO TTS.utils.manage: Model's license - CPML
+2026-10-29 15:49:12,268 INFO TTS.utils.manage: Check https://tts-hub.github.io/cpml for more info.
+2026-10-29 15:49:12,303 INFO TTS.tts.models: Using model: xtts
+2026-10-29 15:49:52,149 INFO TTS.utils.synthesizer: Language `cs` not supported by pySBD, using English for sentence splitting.
+2026-10-29 15:49:52,241 INFO TTS.utils.synthesizer: Language `hu` not supported by pySBD, using English for sentence splitting.
+2026-10-29 15:49:52,241 INFO TTS.utils.synthesizer: Language `ko` not supported by pySBD, using English for sentence splitting.
+2026-10-29 15:49:52,241 INFO TTS.utils.synthesizer: Language `pt` not supported by pySBD, using English for sentence splitting.
+2026-10-29 15:49:52,241 INFO TTS.utils.synthesizer: Language `tr` not supported by pySBD, using English for sentence splitting.
+2026-10-29 15:49:52,241 INFO TTS.utils.synthesizer: Segmenters initialized for: dict_keys(['ar', 'cs', 'de', 'en', 'es', 'fr', 'hi', 'hu', 'it', 'ja', 'ko', 'nl', 'pl', 'pt', 'ru', 'tr', 'zh-cn'])
+2026-10-29 15:51:23,396 INFO dubbing.pipeline: [seg_00002] 587% too long; refined to 5 chars (attempt 1)
+2026-10-29 15:52:03,285 INFO dubbing.pipeline: [seg_00002] 497% too long; refined to 5 chars (attempt 2)
+2026-10-29 15:52:05,657 INFO dubbing.pipeline: [seg_00002] 497% too long; refined to 5 chars (attempt 3)
+2026-10-29 15:53:15,882 INFO dubbing.pipeline: [seg_00004] 177% too long; refined to 12 chars (attempt 1)
+2026-10-29 15:53:32,485 INFO dubbing.pipeline: [seg_00004] 93% too long; refined to 7 chars (attempt 2)
+2026-10-29 15:53:50,580 INFO dubbing.pipeline: [seg_00004] 116% too long; refined to 8 chars (attempt 3)
+2026-10-29 15:54:40,475 INFO dubbing.pipeline: [seg_00005] 235% too long; refined to 16 chars (attempt 1)
+2026-10-29 15:55:12,161 INFO dubbing.pipeline: [seg_00005] 133% too long; refined to 11 chars (attempt 2)
+2026-10-29 15:56:00,009 INFO dubbing.pipeline: [seg_00005] 380% too long; refined to 5 chars (attempt 3)
+2026-10-29 15:57:28,499 INFO dubbing.pipeline: [seg_00006] 1213% too long; refined to 4 chars (attempt 1)
+2026-10-29 15:57:51,831 INFO dubbing.pipeline: [seg_00006] 600% too long; refined to 6 chars (attempt 2)
+2026-10-29 15:57:53,148 INFO dubbing.pipeline: [seg_00006] 1213% too long; refined to 4 chars (attempt 3)
+2026-10-29 15:58:23,597 INFO dubbing.pipeline: [seg_00007] 151% too long; refined to 8 chars (attempt 1)
+2026-10-29 15:58:43,676 INFO dubbing.pipeline: [seg_00007] 59% too long; refined to 5 chars (attempt 2)
+2026-10-29 15:59:11,559 INFO dubbing.pipeline: [seg_00007] 127% too long; refined to 4 chars (attempt 3)
+2026-10-29 15:59:32,261 WARNING dubbing.pipeline: 5 segment(s) still exceed their slot after refinement and 1.40x tempo; see timing_report.json
+2026-10-29 15:59:32,290 INFO dubbing.pipeline: [synthesize] completed in 624.6s
+2026-10-29 15:59:32,316 INFO dubbing.pipeline: [mix] running (e8ccc00cce811c4a)
+2026-10-29 15:59:32,516 INFO dubbing.pipeline: [mix] completed in 0.2s
+2026-10-29 15:59:36,524 INFO dubbing.pipeline: Output validated: input.hindi.mp4 (35.0s)
+2026-10-29 15:59:36,548 INFO dubbing.jobs: Job ed5752130bb34222bc65245fa6b89738 succeeded -> G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\outputs\ed5752130bb34222bc65245fa6b89738\input.hindi.mp4

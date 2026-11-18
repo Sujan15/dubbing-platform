@@ -1,0 +1,146 @@
+2026-10-31 15:25:42,038 INFO dubbing.pipeline: Input input.mp4: 221.5s, 640x360 @ 30.000 fps, video=h264, audio streams=1
+2026-10-31 15:25:42,091 INFO dubbing.pipeline: Workspace: G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\work\8bbca2ead6e3d191 | device: cpu
+2026-10-31 15:25:42,098 INFO dubbing.pipeline: [extract] cache hit (8d23f17473113f63)
+2026-10-31 15:25:42,103 INFO dubbing.pipeline: [separate] cache hit (45cc832827dab7bc)
+2026-10-31 15:25:42,109 INFO dubbing.pipeline: [transcribe] running (a8ea7eeb23a21e74)
+2026-10-31 15:25:55,026 ERROR dubbing.jobs: Job 21fd4b09003642028a0e27bea1bc1250 failed: mkl_malloc: failed to allocate memory
+Traceback (most recent call last):
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\app\jobs.py", line 322, in _run
+    self._run_analysis(job_id, out_dir, cancel)
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\app\jobs.py", line 349, in _run_analysis
+    analysis = self.pipeline.analyze_for_review(Path(rec.input_path), opts, out_dir, cb)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\services\pipeline.py", line 215, in analyze_for_review
+    analysis = self.analyze(video, options, _Progress(progress, ANALYSIS_STAGES))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\services\pipeline.py", line 263, in analyze
+    d_asr = self._stage(ws, "transcribe", 1, asr_params, [speech_16k],
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\services\pipeline.py", line 470, in _stage
+    produce(tmp)
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\services\pipeline.py", line 264, in <lambda>
+    lambda out: self._transcribe(speech_16k, out, options.source_language, info.duration, p))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\backend\services\pipeline.py", line 586, in _transcribe
+    model = WhisperModel(self.s.whisper_model, device=self.device, compute_type=self._whisper_compute_type(),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\.venv\Lib\site-packages\faster_whisper\transcribe.py", line 689, in __init__
+    self.model = ctranslate2.models.Whisper(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mkl_malloc: failed to allocate memory
+
+2026-10-31 15:33:38,681 INFO dubbing.pipeline: Input input.mp4: 221.5s, 640x360 @ 30.000 fps, video=h264, audio streams=1
+2026-10-31 15:33:43,372 WARNING dubbing.pipeline: No CUDA GPU detected; inference runs on CPU (correct but slow).
+2026-10-31 15:33:43,372 INFO dubbing.pipeline: Workspace: G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\work\8bbca2ead6e3d191 | device: cpu
+2026-10-31 15:33:43,376 INFO dubbing.pipeline: [extract] cache hit (8d23f17473113f63)
+2026-10-31 15:33:43,378 INFO dubbing.pipeline: [separate] cache hit (45cc832827dab7bc)
+2026-10-31 15:33:43,383 INFO dubbing.pipeline: [transcribe] running (a8ea7eeb23a21e74)
+2026-10-31 15:34:00,243 INFO faster_whisper: Processing audio with duration 03:41.449
+2026-10-31 15:34:01,202 INFO faster_whisper: VAD filter removed 00:35.881 of audio
+2026-10-31 15:34:19,918 INFO faster_whisper: Detected language 'en' with probability 1.00
+2026-10-31 15:34:19,938 INFO dubbing.pipeline: Whisper language: en (p=1.00)
+2026-10-31 15:39:50,557 INFO dubbing.pipeline: [transcribe] completed in 367.2s
+2026-10-31 15:39:50,594 INFO dubbing.pipeline: [diarize] running (52df702ff5744557)
+2026-10-31 15:47:43,088 INFO dubbing.pipeline: [diarize] completed in 472.5s
+2026-10-31 15:47:43,135 INFO dubbing.pipeline: [align] running (c12363d4ae7d195b)
+2026-10-31 15:47:43,151 INFO dubbing.pipeline: [align] completed in 0.0s
+2026-10-31 15:47:43,223 INFO dubbing.pipeline: [translate] running (e3c2b00e4364ff57)
+2026-10-31 15:47:58,923 INFO dubbing.pipeline: [translate] completed in 15.6s
+2026-10-31 15:47:58,936 INFO dubbing.pipeline: [voices] running (ac3040bb407ad3d9)
+2026-10-31 15:47:59,039 INFO dubbing.pipeline: [voices] completed in 0.1s
+2026-10-31 15:47:59,075 INFO dubbing.jobs: Job 21fd4b09003642028a0e27bea1bc1250 analysed: 77 segments, 3 speakers; awaiting review
+2026-10-31 15:54:10,815 INFO dubbing.pipeline: Input input.mp4: 221.5s, 640x360 @ 30.000 fps, video=h264, audio streams=1
+2026-10-31 15:54:10,817 INFO dubbing.pipeline: Workspace: G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\work\8bbca2ead6e3d191 | device: cpu
+2026-10-31 15:54:10,819 INFO dubbing.pipeline: [extract] cache hit (8d23f17473113f63)
+2026-10-31 15:54:10,820 INFO dubbing.pipeline: [separate] cache hit (45cc832827dab7bc)
+2026-10-31 15:54:10,822 INFO dubbing.pipeline: [voices] cache hit (ac3040bb407ad3d9)
+2026-10-31 15:54:10,831 INFO dubbing.pipeline: Voice SPEAKER_00 (Speaker 1): requested=clone resolved=clone ref=14.6s
+2026-10-31 15:54:10,832 WARNING dubbing.pipeline: Speaker 2: cloning from only 4.8s of speech (< MIN_SPEAKER_REFERENCE_SECONDS=6) and no DEFAULT_VOICE_FALLBACK configured; voice similarity will be lower.
+2026-10-31 15:54:10,833 INFO dubbing.pipeline: Voice SPEAKER_01 (Speaker 2): requested=clone resolved=clone ref=4.8s
+2026-10-31 15:54:10,833 INFO dubbing.pipeline: Voice SPEAKER_02 (Speaker 3): requested=clone resolved=clone ref=15.0s
+2026-10-31 15:54:10,841 INFO dubbing.pipeline: [synthesize] running (54f710a6a397cd39)
+2026-10-31 15:54:17,013 INFO TTS.utils.manage: Downloading model to G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\models\tts\tts\tts_models--multilingual--multi-dataset--xtts_v2
+2026-10-31 15:54:17,731 INFO TTS.utils.manage: Model's license - CPML
+2026-10-31 15:54:17,732 INFO TTS.utils.manage: Check https://tts-hub.github.io/cpml for more info.
+2026-10-31 15:54:17,763 INFO TTS.tts.models: Using model: xtts
+2026-10-31 15:54:46,356 INFO TTS.utils.synthesizer: Language `cs` not supported by pySBD, using English for sentence splitting.
+2026-10-31 15:54:46,368 INFO TTS.utils.synthesizer: Language `hu` not supported by pySBD, using English for sentence splitting.
+2026-10-31 15:54:46,368 INFO TTS.utils.synthesizer: Language `ko` not supported by pySBD, using English for sentence splitting.
+2026-10-31 15:54:46,368 INFO TTS.utils.synthesizer: Language `pt` not supported by pySBD, using English for sentence splitting.
+2026-10-31 15:54:46,369 INFO TTS.utils.synthesizer: Language `tr` not supported by pySBD, using English for sentence splitting.
+2026-10-31 15:54:46,369 INFO TTS.utils.synthesizer: Segmenters initialized for: dict_keys(['ar', 'cs', 'de', 'en', 'es', 'fr', 'hi', 'hu', 'it', 'ja', 'ko', 'nl', 'pl', 'pt', 'ru', 'tr', 'zh-cn'])
+2026-10-31 15:55:28,098 INFO dubbing.pipeline: [seg_00001] 121% too long; refined to 12 chars (attempt 1)
+2026-10-31 15:56:23,268 INFO dubbing.pipeline: [seg_00002] 80% too long; refined to 18 chars (attempt 1)
+2026-10-31 15:57:13,628 INFO dubbing.pipeline: [seg_00003] 187% too long; refined to 4 chars (attempt 1)
+2026-10-31 15:57:38,671 INFO dubbing.pipeline: [seg_00004] 204% too long; refined to 4 chars (attempt 1)
+2026-10-31 15:58:12,778 INFO dubbing.pipeline: [seg_00005] 59% too long; refined to 18 chars (attempt 1)
+2026-10-31 15:58:13,909 INFO dubbing.pipeline: [seg_00006] 219% too long; refined to 4 chars (attempt 1)
+2026-10-31 15:58:33,219 INFO dubbing.pipeline: [seg_00007] 61% too long; refined to 13 chars (attempt 1)
+2026-10-31 15:59:14,382 INFO dubbing.pipeline: [seg_00008] 48% too long; refined to 13 chars (attempt 1)
+2026-10-31 15:59:27,534 INFO dubbing.pipeline: [seg_00009] 69% too long; refined to 13 chars (attempt 1)
+2026-10-31 15:59:28,861 INFO dubbing.pipeline: [seg_00010] 57% too long; refined to 13 chars (attempt 1)
+2026-10-31 15:59:52,685 INFO dubbing.pipeline: [seg_00011] 208% too long; refined to 5 chars (attempt 1)
+2026-10-31 16:01:01,688 INFO dubbing.pipeline: [seg_00012] 65% too long; refined to 22 chars (attempt 1)
+2026-10-31 16:01:18,755 INFO dubbing.pipeline: [seg_00013] 183% too long; refined to 5 chars (attempt 1)
+2026-10-31 16:01:20,028 INFO dubbing.pipeline: [seg_00014] 67% too long; refined to 23 chars (attempt 1)
+2026-10-31 16:01:59,669 INFO dubbing.pipeline: [seg_00015] 86% too long; refined to 20 chars (attempt 1)
+2026-10-31 16:03:04,952 INFO dubbing.pipeline: [seg_00017] 68% too long; refined to 23 chars (attempt 1)
+2026-10-31 16:03:48,546 INFO dubbing.pipeline: [seg_00018] 38% too long; refined to 39 chars (attempt 1)
+2026-10-31 16:04:58,909 INFO dubbing.pipeline: [seg_00019] 69% too long; refined to 22 chars (attempt 1)
+2026-10-31 16:06:06,068 INFO dubbing.pipeline: [seg_00020] 200% too long; refined to 12 chars (attempt 1)
+2026-10-31 16:07:01,850 INFO dubbing.pipeline: [seg_00021] 150% too long; refined to 10 chars (attempt 1)
+2026-10-31 16:07:23,324 INFO dubbing.pipeline: [seg_00022] 62% too long; refined to 21 chars (attempt 1)
+2026-10-31 16:07:54,565 INFO dubbing.pipeline: [seg_00023] 153% too long; refined to 12 chars (attempt 1)
+2026-10-31 16:08:18,638 INFO dubbing.pipeline: [seg_00024] 139% too long; refined to 10 chars (attempt 1)
+2026-10-31 16:08:41,955 INFO dubbing.pipeline: [seg_00025] 119% too long; refined to 5 chars (attempt 1)
+2026-10-31 16:09:11,423 INFO dubbing.pipeline: [seg_00026] 31% too long; refined to 13 chars (attempt 1)
+2026-10-31 16:09:31,198 INFO dubbing.pipeline: [seg_00027] 103% too long; refined to 5 chars (attempt 1)
+2026-10-31 16:10:01,178 INFO dubbing.pipeline: [seg_00028] 723% too long; refined to 3 chars (attempt 1)
+2026-10-31 16:10:59,825 INFO dubbing.pipeline: [seg_00030] 35% too long; refined to 12 chars (attempt 1)
+2026-10-31 16:12:37,921 INFO dubbing.pipeline: [seg_00031] 1624% too long; refined to 4 chars (attempt 1)
+2026-10-31 16:13:43,280 INFO dubbing.pipeline: [seg_00032] 57% too long; refined to 13 chars (attempt 1)
+2026-10-31 16:16:01,191 INFO dubbing.pipeline: [seg_00035] 53% too long; refined to 34 chars (attempt 1)
+2026-10-31 16:16:53,619 INFO dubbing.pipeline: [seg_00037] 47% too long; refined to 34 chars (attempt 1)
+2026-10-31 16:17:52,148 INFO dubbing.pipeline: [seg_00038] 36% too long; refined to 30 chars (attempt 1)
+2026-10-31 16:18:13,989 INFO dubbing.pipeline: [seg_00039] 38% too long; refined to 34 chars (attempt 1)
+2026-10-31 16:18:43,979 INFO dubbing.pipeline: [seg_00040] 61% too long; refined to 26 chars (attempt 1)
+2026-10-31 16:19:31,067 INFO dubbing.pipeline: [seg_00041] 39% too long; refined to 36 chars (attempt 1)
+2026-10-31 16:20:22,084 INFO dubbing.pipeline: [seg_00042] 59% too long; refined to 27 chars (attempt 1)
+2026-10-31 16:20:40,851 INFO dubbing.pipeline: [seg_00043] 40% too long; refined to 36 chars (attempt 1)
+2026-10-31 16:21:05,444 INFO dubbing.pipeline: [seg_00044] 62% too long; refined to 30 chars (attempt 1)
+2026-10-31 16:21:49,523 INFO dubbing.pipeline: [seg_00045] 98% too long; refined to 14 chars (attempt 1)
+2026-10-31 16:23:15,732 INFO dubbing.pipeline: [seg_00046] 55% too long; refined to 36 chars (attempt 1)
+2026-10-31 16:23:45,349 INFO dubbing.pipeline: [seg_00047] 147% too long; refined to 12 chars (attempt 1)
+2026-10-31 16:25:44,972 INFO dubbing.pipeline: [seg_00049] 44% too long; refined to 31 chars (attempt 1)
+2026-10-31 16:27:09,496 INFO dubbing.pipeline: [seg_00050] 50% too long; refined to 18 chars (attempt 1)
+2026-10-31 16:28:21,309 INFO dubbing.pipeline: [seg_00051] 40% too long; refined to 18 chars (attempt 1)
+2026-10-31 16:28:51,707 INFO dubbing.pipeline: [seg_00052] 54% too long; refined to 17 chars (attempt 1)
+2026-10-31 16:29:10,386 INFO dubbing.pipeline: [seg_00053] 56% too long; refined to 18 chars (attempt 1)
+2026-10-31 16:29:52,014 INFO dubbing.pipeline: [seg_00054] 72% too long; refined to 18 chars (attempt 1)
+2026-10-31 16:30:25,489 INFO dubbing.pipeline: [seg_00055] 133% too long; refined to 4 chars (attempt 1)
+2026-10-31 16:31:29,233 INFO dubbing.pipeline: [seg_00056] 208% too long; refined to 6 chars (attempt 1)
+2026-10-31 16:32:59,335 INFO dubbing.pipeline: [seg_00058] 59% too long; refined to 13 chars (attempt 1)
+2026-10-31 16:33:54,874 INFO dubbing.pipeline: [seg_00059] 69% too long; refined to 4 chars (attempt 1)
+2026-10-31 16:33:56,032 INFO dubbing.pipeline: [seg_00060] 214% too long; refined to 5 chars (attempt 1)
+2026-10-31 16:35:06,131 INFO dubbing.pipeline: [seg_00061] 29% too long; refined to 27 chars (attempt 1)
+2026-10-31 16:36:13,299 INFO dubbing.pipeline: [seg_00062] 107% too long; refined to 14 chars (attempt 1)
+2026-10-31 16:37:34,710 INFO dubbing.pipeline: [seg_00064] 97% too long; refined to 17 chars (attempt 1)
+2026-10-31 16:37:56,209 INFO dubbing.pipeline: [seg_00065] 34% too long; refined to 36 chars (attempt 1)
+2026-10-31 16:40:32,105 INFO dubbing.pipeline: [seg_00066] 40% too long; refined to 25 chars (attempt 1)
+2026-10-31 16:41:22,295 INFO dubbing.pipeline: [seg_00067] 41% too long; refined to 28 chars (attempt 1)
+2026-10-31 16:41:47,737 INFO dubbing.pipeline: [seg_00068] 40% too long; refined to 25 chars (attempt 1)
+2026-10-31 16:41:48,980 INFO dubbing.pipeline: [seg_00069] 39% too long; refined to 26 chars (attempt 1)
+2026-10-31 16:44:49,947 INFO dubbing.pipeline: [seg_00070] 72% too long; refined to 27 chars (attempt 1)
+2026-10-31 16:46:31,556 INFO dubbing.pipeline: [seg_00071] 56% too long; refined to 31 chars (attempt 1)
+2026-10-31 16:47:02,831 INFO dubbing.pipeline: [seg_00072] 89% too long; refined to 28 chars (attempt 1)
+2026-10-31 16:47:25,592 INFO dubbing.pipeline: [seg_00073] 45% too long; refined to 26 chars (attempt 1)
+2026-10-31 16:48:25,967 INFO dubbing.pipeline: [seg_00074] 52% too long; refined to 21 chars (attempt 1)
+2026-10-31 16:49:19,725 INFO dubbing.pipeline: [seg_00075] 36% too long; refined to 33 chars (attempt 1)
+2026-10-31 16:49:58,078 INFO dubbing.pipeline: [seg_00076] 43% too long; refined to 24 chars (attempt 1)
+2026-10-31 16:50:26,252 INFO dubbing.pipeline: [seg_00077] 40% too long; refined to 29 chars (attempt 1)
+2026-10-31 16:50:58,334 WARNING dubbing.pipeline: 34 segment(s) still exceed their slot after refinement and 1.40x tempo; see timing_report.json
+2026-10-31 16:50:58,374 INFO dubbing.pipeline: [synthesize] completed in 3407.5s
+2026-10-31 16:50:58,411 INFO dubbing.pipeline: [mix] running (83afcf80ec9b4c62)
+2026-10-31 16:50:59,833 INFO dubbing.pipeline: [mix] completed in 1.4s
+2026-10-31 16:51:14,353 INFO dubbing.pipeline: Output validated: input.hindi.mp4 (221.4s)
+2026-10-31 16:51:14,385 INFO dubbing.jobs: Job 21fd4b09003642028a0e27bea1bc1250 succeeded -> G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\outputs\21fd4b09003642028a0e27bea1bc1250\input.hindi.mp4

@@ -1,0 +1,70 @@
+{
+  "project_id": "af35971a9b5349c698f70fdf44ac216f",
+  "video_id": "28b54a957b5f40c6ba9d4bc430e17242",
+  "job_id": "136b149fe7554f90841f4464ec826df5",
+  "episode_number": null,
+  "approved_version": 4,
+  "mappings": [
+    {
+      "local_speaker_id": "SPEAKER_00",
+      "character_id": null,
+      "confidence": null,
+      "mapping_status": "unassigned",
+      "reviewed_by_user": false,
+      "evidence": {
+        "origin_labels": [
+          "SPEAKER_00"
+        ],
+        "speech_seconds": 4.8,
+        "reason": "no characters with voice evidence yet",
+        "candidates": []
+      }
+    },
+    {
+      "local_speaker_id": "SPEAKER_01",
+      "character_id": null,
+      "confidence": null,
+      "mapping_status": "unassigned",
+      "reviewed_by_user": false,
+      "evidence": {
+        "origin_labels": [
+          "SPEAKER_01"
+        ],
+        "speech_seconds": 0.0,
+        "reason": "only 0.0s of clean speech (< MIN_SEGMENT_IDENTITY_DURATION=1); too little evidence for an identity match",
+        "candidates": []
+      }
+    },
+    {
+      "local_speaker_id": "SPEAKER_02",
+      "character_id": null,
+      "confidence": null,
+      "mapping_status": "unassigned",
+      "reviewed_by_user": false,
+      "evidence": {
+        "origin_labels": [
+          "SPEAKER_02"
+        ],
+        "speech_seconds": 2.08,
+        "reason": "no characters with voice evidence yet",
+        "candidates": []
+      }
+    },
+    {
+      "local_speaker_id": "SPEAKER_03",
+      "character_id": null,
+      "confidence": null,
+      "mapping_status": "unassigned",
+      "reviewed_by_user": false,
+      "evidence": {
+        "origin_labels": [
+          "SPEAKER_03"
+        ],
+        "speech_seconds": 9.97,
+        "reason": "no characters with voice evidence yet",
+        "candidates": []
+      }
+    }
+  ],
+  "created_at": "2026-11-16T10:05:57.980044Z"
+}

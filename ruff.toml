@@ -1,0 +1,7 @@
+line-length = 120
+target-version = "py310"
+
+[lint]
+select = ["E", "F", "W", "B"]
+# E741: short loop names (l) are used deliberately; B008: FastAPI File()/Form()/Depends() defaults are idiomatic.
+ignore = ["E501", "E741", "B008"]

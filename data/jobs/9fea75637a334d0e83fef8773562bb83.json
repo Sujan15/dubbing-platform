@@ -1,0 +1,30 @@
+{
+  "job_id": "9fea75637a334d0e83fef8773562bb83",
+  "state": "succeeded",
+  "stage": "done",
+  "progress": 1.0,
+  "message": "Dubbing complete",
+  "input_filename": "video.mp4",
+  "input_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\uploads\\9fea75637a334d0e83fef8773562bb83\\input.mp4",
+  "options": {
+    "source_language": "en",
+    "mix_mode": "preserve_background",
+    "translation_engine": "openrouter",
+    "min_speakers": 1,
+    "max_speakers": 1
+  },
+  "created_at": "2026-10-29T07:45:11.473366Z",
+  "started_at": "2026-10-29T08:20:39.813919Z",
+  "finished_at": "2026-10-29T08:58:11.626979Z",
+  "output_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\9fea75637a334d0e83fef8773562bb83\\input.hindi.mp4",
+  "manifest_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\9fea75637a334d0e83fef8773562bb83\\manifest.json",
+  "timing_report_path": "G:\\ETL DEMO WORK\\ETL_BEST_PRACTICES\\ai_dubbing\\hindi-dubbing-platform\\data\\outputs\\9fea75637a334d0e83fef8773562bb83\\timing_report.json",
+  "source_language": "en",
+  "speakers": 1,
+  "segments": 19,
+  "warnings": [
+    "No CUDA GPU: skipping Demucs and using the full mixed track for ASR, voice cloning and mixing. Set SEPARATION_ALLOW_CPU=true to separate on CPU (slow, much better quality).",
+    "preserve_background needs separated stems; falling back to original_plus_dub (original track ducked -18 dB under Hindi dialogue)."
+  ],
+  "error": null
+}

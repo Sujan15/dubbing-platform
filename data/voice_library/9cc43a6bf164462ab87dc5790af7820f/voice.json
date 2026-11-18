@@ -1,0 +1,61 @@
+{
+  "voice_id": "9cc43a6bf164462ab87dc5790af7820f",
+  "voice_name": "Hero — Rohit",
+  "kind": "cast",
+  "engine": "parler",
+  "language": "hi",
+  "gender": "male",
+  "description": "Hero (catalog slot; audition and approve before use)",
+  "catalog_slot": "HIN_MALE_HERO_01",
+  "reference_available": false,
+  "reference_transcript": null,
+  "reference_language": "hi",
+  "reference_duration_seconds": 0.0,
+  "reference_speech_seconds": 0.0,
+  "reference_sample_rate": null,
+  "reference_quality": [],
+  "reference_sha256": null,
+  "voice_description_prompt": "Rohit speaks with a balanced, confident male pitch and a natural, expressive tone at a moderate pace. The recording is of very high quality, sounding very clear and close up with almost no background noise.",
+  "prompt_version": 1,
+  "prompt_versions": [
+    {
+      "version": 1,
+      "prompt": "Rohit speaks with a balanced, confident male pitch and a natural, expressive tone at a moderate pace. The recording is of very high quality, sounding very clear and close up with almost no background noise.",
+      "created_at": "2026-11-17T09:40:50.107551Z"
+    }
+  ],
+  "sample_text": "नमस्ते, मेरा नाम अर्जुन है। आज हम एक नई कहानी की शुरुआत करने जा रहे हैं।",
+  "generation_parameters": {},
+  "seed": null,
+  "model_id": "ai4bharat/indic-parler-tts",
+  "model_revision": null,
+  "supported_language_status": "validated",
+  "license_metadata": {
+    "license": "See the model card of PARLER_MODEL (Apache-2.0 for indic-parler-tts weights; verify)",
+    "commercial_use": null
+  },
+  "quality_benchmark": {},
+  "approved": true,
+  "approved_at": "2026-11-17T12:28:31.836246Z",
+  "approved_config_hash": "cffc08bb627ca97c",
+  "approval_note": "Real Parler Hindi audition verified: non-empty WAV, 1.03s at 44100 Hz, RMS 0.0741, peak 0.3687; no clipping or reported audition problems.",
+  "active": true,
+  "preview": {
+    "text": "नमस्ते दुनिया",
+    "generated_at": "2026-11-17T12:27:22.108362Z",
+    "config_hash": "cffc08bb627ca97c",
+    "prompt_version": 1,
+    "artifact_name": "auditions/092792df51934d40bbe7f42509372054.wav",
+    "engine": "parler",
+    "model_id": "ai4bharat/indic-parler-tts",
+    "model_revision": null,
+    "duration_seconds": 1.03,
+    "run_id": "092792df51934d40bbe7f42509372054",
+    "problems": []
+  },
+  "origin": {
+    "catalog": true
+  },
+  "created_at": "2026-11-17T09:40:50.107551Z",
+  "updated_at": "2026-11-17T12:28:31.836246Z"
+}

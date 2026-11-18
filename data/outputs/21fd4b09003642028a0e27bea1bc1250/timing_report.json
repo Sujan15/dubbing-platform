@@ -1,0 +1,2358 @@
+{
+  "summary": {
+    "fits": 6,
+    "tts_speed": 0,
+    "atempo": 22,
+    "atempo_after_refine": 15,
+    "atempo_capped_overflow": 34
+  },
+  "segments": [
+    {
+      "segment_id": "seg_00001",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.94,
+      "window_seconds": 2.34,
+      "generated_duration": 4.93,
+      "final_duration": 3.522,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 0.5,
+      "placement_end": 4.022,
+      "overflow_seconds": 1.582,
+      "overlaps_next": true,
+      "warning": "Line is 1.18s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -7.9,
+      "attempts": [
+        {
+          "text": "हेलो, कैसे हो?",
+          "generated": 5.16,
+          "ratio": 2.2051
+        },
+        {
+          "text": "नमस्ते, ठीक?",
+          "generated": 4.93,
+          "ratio": 2.1068
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00002",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.12,
+      "window_seconds": 1.52,
+      "generated_duration": 3.41,
+      "final_duration": 2.439,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 2.84,
+      "placement_end": 5.279,
+      "overflow_seconds": 1.319,
+      "overlaps_next": true,
+      "warning": "Line is 0.92s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -8.15,
+      "attempts": [
+        {
+          "text": "मैं ठीक हूँ, धन्यवाद।",
+          "generated": 2.74,
+          "ratio": 1.8026
+        },
+        {
+          "text": "ठीक हूँ, शुक्रिया।",
+          "generated": 3.41,
+          "ratio": 2.2434
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00003",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.18,
+      "window_seconds": 1.58,
+      "generated_duration": 3.69,
+      "final_duration": 2.628,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 5.08,
+      "placement_end": 7.708,
+      "overflow_seconds": 1.448,
+      "overlaps_next": true,
+      "warning": "Line is 1.05s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -6.69,
+      "attempts": [
+        {
+          "text": "तुम कैसे हो?",
+          "generated": 4.53,
+          "ratio": 2.8671
+        },
+        {
+          "text": "तुम?",
+          "generated": 3.69,
+          "ratio": 2.3354
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00004",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.4,
+      "window_seconds": 1.7,
+      "generated_duration": 4.77,
+      "final_duration": 3.41,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 7.44,
+      "placement_end": 10.85,
+      "overflow_seconds": 2.01,
+      "overlaps_next": true,
+      "warning": "Line is 1.71s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -7.18,
+      "attempts": [
+        {
+          "text": "हेलो, कैसे हो?",
+          "generated": 5.16,
+          "ratio": 3.0353
+        },
+        {
+          "text": "हाय!",
+          "generated": 4.77,
+          "ratio": 2.8059
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00005",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.32,
+      "window_seconds": 1.72,
+      "generated_duration": 3.41,
+      "final_duration": 2.439,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 9.14,
+      "placement_end": 11.579,
+      "overflow_seconds": 1.119,
+      "overlaps_next": true,
+      "warning": "Line is 0.72s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -7.68,
+      "attempts": [
+        {
+          "text": "मैं ठीक हूँ, धन्यवाद।",
+          "generated": 2.74,
+          "ratio": 1.593
+        },
+        {
+          "text": "ठीक हूँ, शुक्रिया।",
+          "generated": 3.41,
+          "ratio": 1.9826
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00006",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.02,
+      "window_seconds": 1.42,
+      "generated_duration": 3.69,
+      "final_duration": 2.628,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 11.52,
+      "placement_end": 14.148,
+      "overflow_seconds": 1.608,
+      "overlaps_next": false,
+      "warning": "Line is 1.21s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -6.06,
+      "attempts": [
+        {
+          "text": "तुम कैसे हो?",
+          "generated": 4.53,
+          "ratio": 3.1901
+        },
+        {
+          "text": "तुम?",
+          "generated": 3.69,
+          "ratio": 2.5986
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00007",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.38,
+      "window_seconds": 1.78,
+      "generated_duration": 4.08,
+      "final_duration": 2.919,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 14.52,
+      "placement_end": 17.439,
+      "overflow_seconds": 1.539,
+      "overlaps_next": true,
+      "warning": "Line is 1.14s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.47,
+      "attempts": [
+        {
+          "text": "तुम क्या काम करते हो?",
+          "generated": 2.87,
+          "ratio": 1.6124
+        },
+        {
+          "text": "तुम्हारा काम?",
+          "generated": 4.08,
+          "ratio": 2.2921
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00008",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 0.94,
+      "window_seconds": 1.34,
+      "generated_duration": 1.61,
+      "final_duration": 1.331,
+      "speed_adjustment": 1.2015,
+      "tts_speed": 1.0,
+      "placement_start": 16.36,
+      "placement_end": 17.691,
+      "overflow_seconds": 0.391,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.76,
+      "attempts": [
+        {
+          "text": "मैं एक टीचर हूँ।",
+          "generated": 1.98,
+          "ratio": 1.4776
+        },
+        {
+          "text": "मैं टीचर हूँ।",
+          "generated": 1.61,
+          "ratio": 1.2015
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00009",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.3,
+      "window_seconds": 1.7,
+      "generated_duration": 4.08,
+      "final_duration": 2.919,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 18.64,
+      "placement_end": 21.559,
+      "overflow_seconds": 1.619,
+      "overlaps_next": true,
+      "warning": "Line is 1.22s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.87,
+      "attempts": [
+        {
+          "text": "तुम क्या काम करते हो?",
+          "generated": 2.87,
+          "ratio": 1.6882
+        },
+        {
+          "text": "तुम्हारा काम?",
+          "generated": 4.08,
+          "ratio": 2.4
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00010",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 0.86,
+      "window_seconds": 1.26,
+      "generated_duration": 1.61,
+      "final_duration": 1.26,
+      "speed_adjustment": 1.2778,
+      "tts_speed": 1.0,
+      "placement_start": 20.4,
+      "placement_end": 21.66,
+      "overflow_seconds": 0.4,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.55,
+      "attempts": [
+        {
+          "text": "मैं एक टीचर हूँ।",
+          "generated": 1.98,
+          "ratio": 1.5714
+        },
+        {
+          "text": "मैं टीचर हूँ।",
+          "generated": 1.61,
+          "ratio": 1.2778
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00011",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 0.9,
+      "window_seconds": 1.14,
+      "generated_duration": 7.68,
+      "final_duration": 5.492,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 23.36,
+      "placement_end": 28.852,
+      "overflow_seconds": 4.592,
+      "overlaps_next": true,
+      "warning": "Line is 4.35s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -3.87,
+      "attempts": [
+        {
+          "text": "तुम कहाँ रहते हो?",
+          "generated": 3.51,
+          "ratio": 3.0789
+        },
+        {
+          "text": "कहाँ?",
+          "generated": 7.68,
+          "ratio": 6.7368
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00012",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.68,
+      "window_seconds": 2.08,
+      "generated_duration": 2.52,
+      "final_duration": 2.084,
+      "speed_adjustment": 1.2115,
+      "tts_speed": 1.0,
+      "placement_start": 24.5,
+      "placement_end": 26.584,
+      "overflow_seconds": 0.404,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -5.84,
+      "attempts": [
+        {
+          "text": "मैं न्यू यॉर्क सिटी में रहता हूँ।",
+          "generated": 3.43,
+          "ratio": 1.649
+        },
+        {
+          "text": "मैं न्यूयॉर्क में हूँ।",
+          "generated": 2.52,
+          "ratio": 1.2115
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00013",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.02,
+      "window_seconds": 1.24,
+      "generated_duration": 7.68,
+      "final_duration": 5.492,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 27.24,
+      "placement_end": 32.732,
+      "overflow_seconds": 4.472,
+      "overlaps_next": true,
+      "warning": "Line is 4.25s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -4.45,
+      "attempts": [
+        {
+          "text": "तुम कहाँ रहते हो?",
+          "generated": 3.51,
+          "ratio": 2.8306
+        },
+        {
+          "text": "कहाँ?",
+          "generated": 7.68,
+          "ratio": 6.1935
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00014",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.66,
+      "window_seconds": 2.06,
+      "generated_duration": 2.3,
+      "final_duration": 2.062,
+      "speed_adjustment": 1.1165,
+      "tts_speed": 1.0,
+      "placement_start": 28.48,
+      "placement_end": 30.542,
+      "overflow_seconds": 0.402,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -5.42,
+      "attempts": [
+        {
+          "text": "मैं न्यू यॉर्क सिटी में रहता हूँ।",
+          "generated": 3.43,
+          "ratio": 1.665
+        },
+        {
+          "text": "मैं न्यू यॉर्क में हूँ।",
+          "generated": 2.3,
+          "ratio": 1.1165
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00015",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.16,
+      "window_seconds": 2.16,
+      "generated_duration": 4.5,
+      "final_duration": 3.2,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 31.86,
+      "placement_end": 35.06,
+      "overflow_seconds": 1.04,
+      "overlaps_next": true,
+      "warning": "Line is 1.04s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -7.02,
+      "attempts": [
+        {
+          "text": "क्या तुम्हारे वीकेंड के लिए कोई प्लान्स हैं?",
+          "generated": 4.01,
+          "ratio": 1.8565
+        },
+        {
+          "text": "वीकेंड के प्लान हैं?",
+          "generated": 4.5,
+          "ratio": 2.0833
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00016",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 3.14,
+      "window_seconds": 3.54,
+      "generated_duration": 4.21,
+      "final_duration": 3.532,
+      "speed_adjustment": 1.1893,
+      "tts_speed": 1.0,
+      "placement_start": 34.02,
+      "placement_end": 37.552,
+      "overflow_seconds": 0.392,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.21,
+      "attempts": [
+        {
+          "text": "हाँ, मैं शनिवार को एक कॉन्सर्ट में जा रहा हूँ।",
+          "generated": 4.21,
+          "ratio": 1.1893
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00017",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.98,
+      "window_seconds": 2.38,
+      "generated_duration": 2.84,
+      "final_duration": 2.378,
+      "speed_adjustment": 1.1933,
+      "tts_speed": 1.0,
+      "placement_start": 38.46,
+      "placement_end": 40.838,
+      "overflow_seconds": 0.398,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -6.08,
+      "attempts": [
+        {
+          "text": "क्या तुम्हारे वीकेंड के लिए कोई प्लान्स हैं?",
+          "generated": 4.01,
+          "ratio": 1.6849
+        },
+        {
+          "text": "वीकेंड के लिए प्लान है?",
+          "generated": 2.84,
+          "ratio": 1.1933
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00018",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.66,
+      "window_seconds": 3.06,
+      "generated_duration": 4.49,
+      "final_duration": 3.21,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 40.96,
+      "placement_end": 44.17,
+      "overflow_seconds": 0.55,
+      "overlaps_next": false,
+      "warning": "Line is 0.15s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.98,
+      "attempts": [
+        {
+          "text": "हाँ, मैं शनिवार को एक कॉन्सर्ट में जा रहा हूँ।",
+          "generated": 4.21,
+          "ratio": 1.3758
+        },
+        {
+          "text": "हाँ, मैं शनिवार को कॉन्सर्ट जा रहा हूँ।",
+          "generated": 4.49,
+          "ratio": 1.4673
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00019",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.06,
+      "window_seconds": 2.46,
+      "generated_duration": 5.66,
+      "final_duration": 4.043,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 45.64,
+      "placement_end": 49.683,
+      "overflow_seconds": 1.983,
+      "overlaps_next": true,
+      "warning": "Line is 1.58s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.53,
+      "attempts": [
+        {
+          "text": "क्या तुम आज रात मेरे साथ डिनर करना चाहोगे?",
+          "generated": 4.15,
+          "ratio": 1.687
+        },
+        {
+          "text": "आज रात डिनर साथ करोगे?",
+          "generated": 5.66,
+          "ratio": 2.3008
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00020",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.52,
+      "window_seconds": 1.92,
+      "generated_duration": 5.27,
+      "final_duration": 3.773,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 48.24,
+      "placement_end": 52.013,
+      "overflow_seconds": 2.253,
+      "overlaps_next": true,
+      "warning": "Line is 1.85s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -6.39,
+      "attempts": [
+        {
+          "text": "हाँ, ये तो बहुत अच्छा लगेगा।",
+          "generated": 5.76,
+          "ratio": 3.0
+        },
+        {
+          "text": "बहुत बढ़िया।",
+          "generated": 5.27,
+          "ratio": 2.7448
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00021",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.42,
+      "window_seconds": 1.82,
+      "generated_duration": 3.62,
+      "final_duration": 2.581,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 50.8,
+      "placement_end": 53.381,
+      "overflow_seconds": 1.161,
+      "overlaps_next": false,
+      "warning": "Line is 0.76s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.24,
+      "attempts": [
+        {
+          "text": "तुम कहाँ जाना चाहते हो?",
+          "generated": 4.55,
+          "ratio": 2.5
+        },
+        {
+          "text": "कहाँ चलें?",
+          "generated": 3.62,
+          "ratio": 1.989
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00022",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.16,
+      "window_seconds": 2.56,
+      "generated_duration": 5.39,
+      "final_duration": 3.85,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 53.36,
+      "placement_end": 57.21,
+      "overflow_seconds": 1.69,
+      "overlaps_next": true,
+      "warning": "Line is 1.29s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.83,
+      "attempts": [
+        {
+          "text": "क्या तुम आज रात मेरे साथ डिनर करना चाहोगे?",
+          "generated": 4.15,
+          "ratio": 1.6211
+        },
+        {
+          "text": "आज रात डिनर पर चलोगे?",
+          "generated": 5.39,
+          "ratio": 2.1055
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00023",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.88,
+      "window_seconds": 2.28,
+      "generated_duration": 4.07,
+      "final_duration": 2.908,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 55.96,
+      "placement_end": 58.868,
+      "overflow_seconds": 1.028,
+      "overlaps_next": true,
+      "warning": "Line is 0.63s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -6.65,
+      "attempts": [
+        {
+          "text": "हाँ, ये तो बहुत अच्छा लगेगा।",
+          "generated": 5.76,
+          "ratio": 2.5263
+        },
+        {
+          "text": "हाँ, बढ़िया।",
+          "generated": 4.07,
+          "ratio": 1.7851
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00024",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.5,
+      "window_seconds": 1.9,
+      "generated_duration": 3.62,
+      "final_duration": 2.581,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 58.52,
+      "placement_end": 61.101,
+      "overflow_seconds": 1.081,
+      "overlaps_next": false,
+      "warning": "Line is 0.68s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.46,
+      "attempts": [
+        {
+          "text": "तुम कहाँ जाना चाहते हो?",
+          "generated": 4.55,
+          "ratio": 2.3947
+        },
+        {
+          "text": "कहाँ चलें?",
+          "generated": 3.62,
+          "ratio": 1.9053
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00025",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.52,
+      "window_seconds": 1.88,
+      "generated_duration": 2.33,
+      "final_duration": 1.896,
+      "speed_adjustment": 1.2394,
+      "tts_speed": 1.0,
+      "placement_start": 61.86,
+      "placement_end": 63.756,
+      "overflow_seconds": 0.376,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -6.58,
+      "attempts": [
+        {
+          "text": "आज मौसम कैसा है?",
+          "generated": 4.11,
+          "ratio": 2.1862
+        },
+        {
+          "text": "मौसम?",
+          "generated": 2.33,
+          "ratio": 1.2394
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00026",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.4,
+      "window_seconds": 1.8,
+      "generated_duration": 3.25,
+      "final_duration": 2.318,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 63.74,
+      "placement_end": 66.058,
+      "overflow_seconds": 0.918,
+      "overlaps_next": false,
+      "warning": "Line is 0.52s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -4.91,
+      "attempts": [
+        {
+          "text": "धूप है और गर्मी है।",
+          "generated": 2.36,
+          "ratio": 1.3111
+        },
+        {
+          "text": "धूप और गर्मी।",
+          "generated": 3.25,
+          "ratio": 1.8056
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00027",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.62,
+      "window_seconds": 2.02,
+      "generated_duration": 2.33,
+      "final_duration": 2.015,
+      "speed_adjustment": 1.1535,
+      "tts_speed": 1.0,
+      "placement_start": 66.23,
+      "placement_end": 68.245,
+      "overflow_seconds": 0.395,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -6.91,
+      "attempts": [
+        {
+          "text": "आज मौसम कैसा है?",
+          "generated": 4.11,
+          "ratio": 2.0347
+        },
+        {
+          "text": "मौसम?",
+          "generated": 2.33,
+          "ratio": 1.1535
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00028",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 0.62,
+      "window_seconds": 0.62,
+      "generated_duration": 0.98,
+      "final_duration": 0.688,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 68.25,
+      "placement_end": 68.938,
+      "overflow_seconds": 0.068,
+      "overlaps_next": true,
+      "warning": "Line is 0.07s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -3.88,
+      "attempts": [
+        {
+          "text": "धूप है",
+          "generated": 5.1,
+          "ratio": 8.2258
+        },
+        {
+          "text": "धूप",
+          "generated": 0.98,
+          "ratio": 1.5806
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00029",
+      "speaker_id": "SPEAKER_01",
+      "status": "atempo",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 4.14,
+      "window_seconds": 4.54,
+      "generated_duration": 5.43,
+      "final_duration": 4.535,
+      "speed_adjustment": 1.196,
+      "tts_speed": 1.0,
+      "placement_start": 68.87,
+      "placement_end": 73.405,
+      "overflow_seconds": 0.395,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.56,
+      "attempts": [
+        {
+          "text": "और गर्मी है। क्या तुम मेरी मदद कर सकते हो ये बैग्स उठाने में?",
+          "generated": 5.43,
+          "ratio": 1.196
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00030",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.54,
+      "window_seconds": 1.94,
+      "generated_duration": 4.66,
+      "final_duration": 3.341,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 74.01,
+      "placement_end": 77.351,
+      "overflow_seconds": 1.801,
+      "overlaps_next": true,
+      "warning": "Line is 1.40s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -6.44,
+      "attempts": [
+        {
+          "text": "हाँ, कोई दिक्कत नहीं।",
+          "generated": 2.61,
+          "ratio": 1.3454
+        },
+        {
+          "text": "हाँ, ठीक है।",
+          "generated": 4.66,
+          "ratio": 2.4021
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00031",
+      "speaker_id": "SPEAKER_01",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 0.34,
+      "window_seconds": 0.34,
+      "generated_duration": 3.7,
+      "final_duration": 2.634,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 76.71,
+      "placement_end": 79.344,
+      "overflow_seconds": 2.294,
+      "overlaps_next": true,
+      "warning": "Line is 2.29s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -2.25,
+      "attempts": [
+        {
+          "text": "क्या तुम मदद कर सकते हो?",
+          "generated": 5.86,
+          "ratio": 17.2353
+        },
+        {
+          "text": "मदद?",
+          "generated": 3.7,
+          "ratio": 10.8824
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00032",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.2,
+      "window_seconds": 1.6,
+      "generated_duration": 4.39,
+      "final_duration": 3.144,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 77.05,
+      "placement_end": 80.194,
+      "overflow_seconds": 1.944,
+      "overlaps_next": true,
+      "warning": "Line is 1.54s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -6.66,
+      "attempts": [
+        {
+          "text": "मुझे ये बैग्स उठाने में?",
+          "generated": 2.52,
+          "ratio": 1.575
+        },
+        {
+          "text": "मैं ये बैग्स?",
+          "generated": 4.39,
+          "ratio": 2.7437
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00033",
+      "speaker_id": "SPEAKER_00",
+      "status": "fits",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 5.73,
+      "window_seconds": 6.13,
+      "generated_duration": 5.84,
+      "final_duration": 5.84,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 79.13,
+      "placement_end": 84.97,
+      "overflow_seconds": 0.11,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.24,
+      "attempts": [
+        {
+          "text": "हाँ, कोई दिक्कत नहीं। क्या तुम्हें पता है कि सबसे नज़दीकी पेट्रोल पंप कहाँ है?",
+          "generated": 5.84,
+          "ratio": 0.9527
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00034",
+      "speaker_id": "SPEAKER_01",
+      "status": "atempo",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 2.32,
+      "window_seconds": 2.72,
+      "generated_duration": 3.15,
+      "final_duration": 2.729,
+      "speed_adjustment": 1.1581,
+      "tts_speed": 1.0,
+      "placement_start": 85.28,
+      "placement_end": 88.009,
+      "overflow_seconds": 0.409,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -6.84,
+      "attempts": [
+        {
+          "text": "हाँ, ये सड़क पर एक मील दूर है।",
+          "generated": 3.15,
+          "ratio": 1.1581
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00035",
+      "speaker_id": "SPEAKER_00",
+      "status": "fits",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.62,
+      "window_seconds": 2.98,
+      "generated_duration": 2.94,
+      "final_duration": 2.94,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 88.79,
+      "placement_end": 91.73,
+      "overflow_seconds": 0.32,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -5.67,
+      "attempts": [
+        {
+          "text": "क्या तुम्हें पता है कि सबसे नज़दीकी पेट्रोल पंप कहाँ है?",
+          "generated": 4.55,
+          "ratio": 1.5268
+        },
+        {
+          "text": "तुम्हें पास का पेट्रोल पंप पता है?",
+          "generated": 2.94,
+          "ratio": 0.9866
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00036",
+      "speaker_id": "SPEAKER_01",
+      "status": "atempo",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 2.44,
+      "window_seconds": 2.84,
+      "generated_duration": 3.15,
+      "final_duration": 2.843,
+      "speed_adjustment": 1.1092,
+      "tts_speed": 1.0,
+      "placement_start": 91.77,
+      "placement_end": 94.613,
+      "overflow_seconds": 0.403,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.0,
+      "attempts": [
+        {
+          "text": "हाँ, ये सड़क पर एक मील दूर है।",
+          "generated": 3.15,
+          "ratio": 1.1092
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00037",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.82,
+      "window_seconds": 2.82,
+      "generated_duration": 3.5,
+      "final_duration": 2.82,
+      "speed_adjustment": 1.2411,
+      "tts_speed": 1.0,
+      "placement_start": 95.85,
+      "placement_end": 98.67,
+      "overflow_seconds": 0.0,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.84,
+      "attempts": [
+        {
+          "text": "माफ करना, मेरे पास एक डॉलर का छुट्टा नहीं है।",
+          "generated": 4.15,
+          "ratio": 1.4716
+        },
+        {
+          "text": "माफ करना, मेरे पास छुट्टा नहीं है।",
+          "generated": 3.5,
+          "ratio": 1.2411
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00038",
+      "speaker_id": "SPEAKER_02",
+      "status": "fits",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.8,
+      "window_seconds": 3.2,
+      "generated_duration": 3.08,
+      "final_duration": 3.08,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 98.67,
+      "placement_end": 101.75,
+      "overflow_seconds": 0.28,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.1,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, मैं कार्ड से भुगतान कर सकता हूँ।",
+          "generated": 4.35,
+          "ratio": 1.3594
+        },
+        {
+          "text": "ठीक है, मैं कार्ड से दे दूंगा।",
+          "generated": 3.08,
+          "ratio": 0.9625
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00039",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.62,
+      "window_seconds": 3.0,
+      "generated_duration": 4.15,
+      "final_duration": 3.003,
+      "speed_adjustment": 1.3833,
+      "tts_speed": 1.0,
+      "placement_start": 102.75,
+      "placement_end": 105.753,
+      "overflow_seconds": 0.383,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.31,
+      "attempts": [
+        {
+          "text": "माफ करना, मेरे पास एक डॉलर का छुट्टा नहीं है।",
+          "generated": 4.15,
+          "ratio": 1.3833
+        },
+        {
+          "text": "माफ करें, मेरे पास छुट्टा नहीं है।",
+          "generated": 4.15,
+          "ratio": 1.3833
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00040",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.3,
+      "window_seconds": 2.7,
+      "generated_duration": 2.74,
+      "final_duration": 2.702,
+      "speed_adjustment": 1.0148,
+      "tts_speed": 1.0,
+      "placement_start": 105.75,
+      "placement_end": 108.452,
+      "overflow_seconds": 0.402,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.62,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, मैं कार्ड से भुगतान कर सकता हूँ।",
+          "generated": 4.35,
+          "ratio": 1.6111
+        },
+        {
+          "text": "ठीक है, कार्ड से दे दूँगा।",
+          "generated": 2.74,
+          "ratio": 1.0148
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00041",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 3.0,
+      "window_seconds": 3.32,
+      "generated_duration": 3.92,
+      "final_duration": 3.314,
+      "speed_adjustment": 1.1807,
+      "tts_speed": 1.0,
+      "placement_start": 110.01,
+      "placement_end": 113.324,
+      "overflow_seconds": 0.314,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.25,
+      "attempts": [
+        {
+          "text": "माफ करना, मैं अंग्रेज़ी अच्छी तरह से नहीं बोलता।",
+          "generated": 4.61,
+          "ratio": 1.3886
+        },
+        {
+          "text": "माफ करें, मेरी अंग्रेज़ी अच्छी नहीं।",
+          "generated": 3.92,
+          "ratio": 1.1807
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00042",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.28,
+      "window_seconds": 2.68,
+      "generated_duration": 2.79,
+      "final_duration": 2.68,
+      "speed_adjustment": 1.041,
+      "tts_speed": 1.0,
+      "placement_start": 113.33,
+      "placement_end": 116.01,
+      "overflow_seconds": 0.4,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.68,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, हम धीरे-धीरे बात कर सकते हैं।",
+          "generated": 4.25,
+          "ratio": 1.5858
+        },
+        {
+          "text": "कोई बात नहीं, धीरे बोलेंगे।",
+          "generated": 2.79,
+          "ratio": 1.041
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00043",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 3.02,
+      "window_seconds": 3.3,
+      "generated_duration": 3.78,
+      "final_duration": 3.302,
+      "speed_adjustment": 1.1455,
+      "tts_speed": 1.0,
+      "placement_start": 116.83,
+      "placement_end": 120.132,
+      "overflow_seconds": 0.282,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.26,
+      "attempts": [
+        {
+          "text": "माफ करना, मैं अंग्रेज़ी अच्छी तरह से नहीं बोलता।",
+          "generated": 4.61,
+          "ratio": 1.397
+        },
+        {
+          "text": "माफ करना, मेरी अंग्रेज़ी अच्छी नहीं।",
+          "generated": 3.78,
+          "ratio": 1.1455
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00044",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.22,
+      "window_seconds": 2.62,
+      "generated_duration": 3.09,
+      "final_duration": 2.618,
+      "speed_adjustment": 1.1794,
+      "tts_speed": 1.0,
+      "placement_start": 120.13,
+      "placement_end": 122.748,
+      "overflow_seconds": 0.398,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.11,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, हम धीरे-धीरे बात कर सकते हैं।",
+          "generated": 4.25,
+          "ratio": 1.6221
+        },
+        {
+          "text": "कोई बात नहीं, हम धीरे बोलेंगे।",
+          "generated": 3.09,
+          "ratio": 1.1794
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00045",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.52,
+      "window_seconds": 1.92,
+      "generated_duration": 5.27,
+      "final_duration": 3.759,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 124.4,
+      "placement_end": 128.159,
+      "overflow_seconds": 2.239,
+      "overlaps_next": true,
+      "warning": "Line is 1.84s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -6.41,
+      "attempts": [
+        {
+          "text": "क्या आप इसे दोहरा सकते हैं, कृपया?",
+          "generated": 3.81,
+          "ratio": 1.9844
+        },
+        {
+          "text": "फिर से कहेंगे?",
+          "generated": 5.27,
+          "ratio": 2.7448
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00046",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.2,
+      "window_seconds": 2.6,
+      "generated_duration": 3.48,
+      "final_duration": 2.59,
+      "speed_adjustment": 1.3385,
+      "tts_speed": 1.0,
+      "placement_start": 126.46,
+      "placement_end": 129.05,
+      "overflow_seconds": 0.39,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -6.87,
+      "attempts": [
+        {
+          "text": "बिल्कुल, मैंने कहा कि मैं स्टोर जा रहा हूँ।",
+          "generated": 4.03,
+          "ratio": 1.55
+        },
+        {
+          "text": "हाँ, मैंने कहा मैं स्टोर जा रहा हूँ।",
+          "generated": 3.48,
+          "ratio": 1.3385
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00047",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.54,
+      "window_seconds": 1.54,
+      "generated_duration": 4.17,
+      "final_duration": 2.985,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 129.88,
+      "placement_end": 132.865,
+      "overflow_seconds": 1.445,
+      "overlaps_next": true,
+      "warning": "Line is 1.44s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -7.27,
+      "attempts": [
+        {
+          "text": "क्या आप इसे दोहरा सकते हैं, कृपया?",
+          "generated": 3.81,
+          "ratio": 2.474
+        },
+        {
+          "text": "फिर से कहें?",
+          "generated": 4.17,
+          "ratio": 2.7078
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00048",
+      "speaker_id": "SPEAKER_02",
+      "status": "fits",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 0.9,
+      "window_seconds": 0.98,
+      "generated_duration": 0.98,
+      "final_duration": 0.98,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 131.42,
+      "placement_end": 132.4,
+      "overflow_seconds": 0.08,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -9.0,
+      "attempts": [
+        {
+          "text": "बिल्कुल।",
+          "generated": 0.98,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00049",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.88,
+      "window_seconds": 2.28,
+      "generated_duration": 3.0,
+      "final_duration": 2.272,
+      "speed_adjustment": 1.3158,
+      "tts_speed": 1.0,
+      "placement_start": 132.4,
+      "placement_end": 134.672,
+      "overflow_seconds": 0.392,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.1,
+      "attempts": [
+        {
+          "text": "मैंने कहा कि मैं स्टोर जा रहा हूँ।",
+          "generated": 3.29,
+          "ratio": 1.443
+        },
+        {
+          "text": "मैंने कहा मैं स्टोर जा रहा हूँ।",
+          "generated": 3.0,
+          "ratio": 1.3158
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00050",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.72,
+      "window_seconds": 2.12,
+      "generated_duration": 3.88,
+      "final_duration": 2.77,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 136.19,
+      "placement_end": 138.96,
+      "overflow_seconds": 1.05,
+      "overlaps_next": true,
+      "warning": "Line is 0.65s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -7.06,
+      "attempts": [
+        {
+          "text": "आपने कहा आपका नाम क्या था?",
+          "generated": 3.17,
+          "ratio": 1.4953
+        },
+        {
+          "text": "तुम्हारा नाम क्या?",
+          "generated": 3.88,
+          "ratio": 1.8302
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00051",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.76,
+      "window_seconds": 2.16,
+      "generated_duration": 2.6,
+      "final_duration": 2.163,
+      "speed_adjustment": 1.2037,
+      "tts_speed": 1.0,
+      "placement_start": 138.35,
+      "placement_end": 140.513,
+      "overflow_seconds": 0.403,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.64,
+      "attempts": [
+        {
+          "text": "मैंने कहा मेरा नाम जॉन है।",
+          "generated": 3.03,
+          "ratio": 1.4028
+        },
+        {
+          "text": "मैंने कहा नाम जॉन।",
+          "generated": 2.6,
+          "ratio": 1.2037
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00052",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.66,
+      "window_seconds": 2.06,
+      "generated_duration": 2.23,
+      "final_duration": 2.054,
+      "speed_adjustment": 1.0825,
+      "tts_speed": 1.0,
+      "placement_start": 141.3,
+      "placement_end": 143.354,
+      "overflow_seconds": 0.394,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.02,
+      "attempts": [
+        {
+          "text": "आपने कहा आपका नाम क्या था?",
+          "generated": 3.17,
+          "ratio": 1.5388
+        },
+        {
+          "text": "आपका नाम क्या था?",
+          "generated": 2.23,
+          "ratio": 1.0825
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00053",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.54,
+      "window_seconds": 1.94,
+      "generated_duration": 2.6,
+      "final_duration": 1.933,
+      "speed_adjustment": 1.3402,
+      "tts_speed": 1.0,
+      "placement_start": 143.36,
+      "placement_end": 145.293,
+      "overflow_seconds": 0.393,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.05,
+      "attempts": [
+        {
+          "text": "मैंने कहा मेरा नाम जॉन है।",
+          "generated": 3.03,
+          "ratio": 1.5619
+        },
+        {
+          "text": "मैंने कहा नाम जॉन।",
+          "generated": 2.6,
+          "ratio": 1.3402
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00054",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.0,
+      "window_seconds": 2.4,
+      "generated_duration": 2.7,
+      "final_duration": 2.406,
+      "speed_adjustment": 1.125,
+      "tts_speed": 1.0,
+      "placement_start": 146.9,
+      "placement_end": 149.306,
+      "overflow_seconds": 0.406,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.71,
+      "attempts": [
+        {
+          "text": "क्या आप थोड़ा धीरे बोल सकते हैं, कृपया?",
+          "generated": 4.13,
+          "ratio": 1.7208
+        },
+        {
+          "text": "धीरे बोलिए, प्लीज।",
+          "generated": 2.7,
+          "ratio": 1.125
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00055",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 0.38,
+      "window_seconds": 0.42,
+      "generated_duration": 4.63,
+      "final_duration": 3.301,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 149.44,
+      "placement_end": 152.741,
+      "overflow_seconds": 2.921,
+      "overlaps_next": true,
+      "warning": "Line is 2.88s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.76,
+      "attempts": [
+        {
+          "text": "बिल्कुल।",
+          "generated": 0.98,
+          "ratio": 2.3333
+        },
+        {
+          "text": "हाँ।",
+          "generated": 4.63,
+          "ratio": 11.0238
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00056",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 0.78,
+      "window_seconds": 1.18,
+      "generated_duration": 4.2,
+      "final_duration": 3.001,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 149.86,
+      "placement_end": 152.861,
+      "overflow_seconds": 2.221,
+      "overlaps_next": true,
+      "warning": "Line is 1.82s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.94,
+      "attempts": [
+        {
+          "text": "मुझे माफ़ करें।",
+          "generated": 3.64,
+          "ratio": 3.0847
+        },
+        {
+          "text": "माफ़ी।",
+          "generated": 4.2,
+          "ratio": 3.5593
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00057",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 2.9,
+      "window_seconds": 3.3,
+      "generated_duration": 3.76,
+      "final_duration": 3.303,
+      "speed_adjustment": 1.1394,
+      "tts_speed": 1.0,
+      "placement_start": 151.72,
+      "placement_end": 155.023,
+      "overflow_seconds": 0.403,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -9.0,
+      "attempts": [
+        {
+          "text": "मैंने कहा कि मीटिंग दोपहर दो बजे है।",
+          "generated": 3.76,
+          "ratio": 1.1394
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00058",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.2,
+      "window_seconds": 2.6,
+      "generated_duration": 4.14,
+      "final_duration": 2.959,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 155.3,
+      "placement_end": 158.259,
+      "overflow_seconds": 0.759,
+      "overlaps_next": true,
+      "warning": "Line is 0.36s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -7.66,
+      "attempts": [
+        {
+          "text": "क्या आप थोड़ा धीरे बोल सकते हैं, कृपया?",
+          "generated": 4.13,
+          "ratio": 1.5885
+        },
+        {
+          "text": "धीरे बोलेंगे?",
+          "generated": 4.14,
+          "ratio": 1.5923
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00059",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 0.46,
+      "window_seconds": 0.58,
+      "generated_duration": 4.63,
+      "final_duration": 3.301,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 157.92,
+      "placement_end": 161.221,
+      "overflow_seconds": 2.841,
+      "overlaps_next": true,
+      "warning": "Line is 2.72s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -5.59,
+      "attempts": [
+        {
+          "text": "बिल्कुल।",
+          "generated": 0.98,
+          "ratio": 1.6897
+        },
+        {
+          "text": "हाँ।",
+          "generated": 4.63,
+          "ratio": 7.9828
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00060",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 0.76,
+      "window_seconds": 1.16,
+      "generated_duration": 3.54,
+      "final_duration": 2.529,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 158.5,
+      "placement_end": 161.029,
+      "overflow_seconds": 1.769,
+      "overlaps_next": true,
+      "warning": "Line is 1.37s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -4.8,
+      "attempts": [
+        {
+          "text": "मुझे माफ़ करें।",
+          "generated": 3.64,
+          "ratio": 3.1379
+        },
+        {
+          "text": "सॉरी।",
+          "generated": 3.54,
+          "ratio": 3.0517
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00061",
+      "speaker_id": "SPEAKER_02",
+      "status": "fits",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.52,
+      "window_seconds": 2.92,
+      "generated_duration": 2.88,
+      "final_duration": 2.88,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 160.28,
+      "placement_end": 163.16,
+      "overflow_seconds": 0.36,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.73,
+      "attempts": [
+        {
+          "text": "मैंने कहा कि मीटिंग दोपहर दो बजे है।",
+          "generated": 3.76,
+          "ratio": 1.2877
+        },
+        {
+          "text": "मैंने कहा मीटिंग दो बजे है।",
+          "generated": 2.88,
+          "ratio": 0.9863
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00062",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.5,
+      "window_seconds": 1.5,
+      "generated_duration": 7.74,
+      "final_duration": 5.527,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 164.56,
+      "placement_end": 170.087,
+      "overflow_seconds": 4.027,
+      "overlaps_next": true,
+      "warning": "Line is 4.03s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -7.4,
+      "attempts": [
+        {
+          "text": "क्या तुम स्पैनिश बोलते हो?",
+          "generated": 3.11,
+          "ratio": 2.0733
+        },
+        {
+          "text": "स्पैनिश बोलते?",
+          "generated": 7.74,
+          "ratio": 5.16
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00063",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 0,
+      "text_locked": false,
+      "original_duration": 3.22,
+      "window_seconds": 3.62,
+      "generated_duration": 3.7,
+      "final_duration": 3.62,
+      "speed_adjustment": 1.0221,
+      "tts_speed": 1.0,
+      "placement_start": 166.06,
+      "placement_end": 169.68,
+      "overflow_seconds": 0.4,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.96,
+      "attempts": [
+        {
+          "text": "हाँ, मैं स्पैनिश फर्राटेदार बोलता हूँ।",
+          "generated": 3.7,
+          "ratio": 1.0221
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00064",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 1.26,
+      "window_seconds": 1.58,
+      "generated_duration": 2.23,
+      "final_duration": 1.588,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 170.0,
+      "placement_end": 171.588,
+      "overflow_seconds": 0.328,
+      "overlaps_next": false,
+      "warning": "Line is 0.01s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -8.3,
+      "attempts": [
+        {
+          "text": "क्या तुम स्पैनिश बोलते हो?",
+          "generated": 3.11,
+          "ratio": 1.9684
+        },
+        {
+          "text": "स्पैनिश जानते हो?",
+          "generated": 2.23,
+          "ratio": 1.4114
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00065",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.36,
+      "window_seconds": 2.76,
+      "generated_duration": 3.63,
+      "final_duration": 2.756,
+      "speed_adjustment": 1.3152,
+      "tts_speed": 1.0,
+      "placement_start": 171.58,
+      "placement_end": 174.336,
+      "overflow_seconds": 0.396,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -6.93,
+      "attempts": [
+        {
+          "text": "हाँ, मैं स्पैनिश फर्राटेदार बोलता हूँ।",
+          "generated": 3.7,
+          "ratio": 1.3406
+        },
+        {
+          "text": "हाँ, मैं स्पैनिश अच्छे से बोलता हूँ।",
+          "generated": 3.63,
+          "ratio": 1.3152
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00066",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.12,
+      "window_seconds": 2.52,
+      "generated_duration": 2.96,
+      "final_duration": 2.524,
+      "speed_adjustment": 1.1746,
+      "tts_speed": 1.0,
+      "placement_start": 175.99,
+      "placement_end": 178.514,
+      "overflow_seconds": 0.404,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.43,
+      "attempts": [
+        {
+          "text": "मुझे माफ़ करना, मुझे जवाब नहीं पता।",
+          "generated": 3.54,
+          "ratio": 1.4048
+        },
+        {
+          "text": "माफ़ करना, जवाब नहीं पता।",
+          "generated": 2.96,
+          "ratio": 1.1746
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00067",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.28,
+      "window_seconds": 2.68,
+      "generated_duration": 2.92,
+      "final_duration": 2.677,
+      "speed_adjustment": 1.0896,
+      "tts_speed": 1.0,
+      "placement_start": 178.53,
+      "placement_end": 181.207,
+      "overflow_seconds": 0.397,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -7.82,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, हम मिलकर देख सकते हैं।",
+          "generated": 3.78,
+          "ratio": 1.4104
+        },
+        {
+          "text": "कोई बात नहीं, साथ देख लेंगे।",
+          "generated": 2.92,
+          "ratio": 1.0896
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00068",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.18,
+      "window_seconds": 2.52,
+      "generated_duration": 2.96,
+      "final_duration": 2.524,
+      "speed_adjustment": 1.1746,
+      "tts_speed": 1.0,
+      "placement_start": 182.2,
+      "placement_end": 184.724,
+      "overflow_seconds": 0.344,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.54,
+      "attempts": [
+        {
+          "text": "मुझे माफ़ करना, मुझे जवाब नहीं पता।",
+          "generated": 3.54,
+          "ratio": 1.4048
+        },
+        {
+          "text": "माफ़ करना, जवाब नहीं पता।",
+          "generated": 2.96,
+          "ratio": 1.1746
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00069",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.32,
+      "window_seconds": 2.72,
+      "generated_duration": 3.11,
+      "final_duration": 2.72,
+      "speed_adjustment": 1.1434,
+      "tts_speed": 1.0,
+      "placement_start": 184.72,
+      "placement_end": 187.44,
+      "overflow_seconds": 0.4,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.2,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, हम मिलकर देख सकते हैं।",
+          "generated": 3.78,
+          "ratio": 1.3897
+        },
+        {
+          "text": "कोई बात नहीं, साथ देखेंगे।",
+          "generated": 3.11,
+          "ratio": 1.1434
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00070",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.14,
+      "window_seconds": 2.46,
+      "generated_duration": 3.07,
+      "final_duration": 2.473,
+      "speed_adjustment": 1.248,
+      "tts_speed": 1.0,
+      "placement_start": 189.04,
+      "placement_end": 191.513,
+      "overflow_seconds": 0.333,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -9.0,
+      "attempts": [
+        {
+          "text": "मुझे माफ़ करना, मैं तुम्हारी मदद नहीं कर सकता।",
+          "generated": 4.23,
+          "ratio": 1.7195
+        },
+        {
+          "text": "माफ़ करो, मदद नहीं कर सकता।",
+          "generated": 3.07,
+          "ratio": 1.248
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00071",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.7,
+      "window_seconds": 3.1,
+      "generated_duration": 3.15,
+      "final_duration": 3.093,
+      "speed_adjustment": 1.0161,
+      "tts_speed": 1.0,
+      "placement_start": 191.5,
+      "placement_end": 194.593,
+      "overflow_seconds": 0.393,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.47,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, मैं किसी और को ढूँढ लूँगा जो कर सके।",
+          "generated": 4.84,
+          "ratio": 1.5613
+        },
+        {
+          "text": "कोई बात नहीं, मैं और देख लूँगा।",
+          "generated": 3.15,
+          "ratio": 1.0161
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00072",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_capped_overflow",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.24,
+      "window_seconds": 2.24,
+      "generated_duration": 3.3,
+      "final_duration": 2.366,
+      "speed_adjustment": 1.4,
+      "tts_speed": 1.0,
+      "placement_start": 195.38,
+      "placement_end": 197.746,
+      "overflow_seconds": 0.126,
+      "overlaps_next": true,
+      "warning": "Line is 0.13s longer than its slot after 1.40x speed-up; review the translation.",
+      "gain_db": -9.0,
+      "attempts": [
+        {
+          "text": "मुझे माफ़ करना, मैं तुम्हारी मदद नहीं कर सकता।",
+          "generated": 4.23,
+          "ratio": 1.8884
+        },
+        {
+          "text": "माफ़ करना, मदद नहीं कर सकता।",
+          "generated": 3.3,
+          "ratio": 1.4732
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00073",
+      "speaker_id": "SPEAKER_02",
+      "status": "fits",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.94,
+      "window_seconds": 3.34,
+      "generated_duration": 3.22,
+      "final_duration": 3.22,
+      "speed_adjustment": 1.0,
+      "tts_speed": 1.0,
+      "placement_start": 197.62,
+      "placement_end": 200.84,
+      "overflow_seconds": 0.28,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.51,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, मैं किसी और को ढूँढ लूँगा जो कर सके।",
+          "generated": 4.84,
+          "ratio": 1.4491
+        },
+        {
+          "text": "ठीक है, मैं और ढूँढ लूँगा।",
+          "generated": 3.22,
+          "ratio": 0.9641
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00074",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.08,
+      "window_seconds": 2.48,
+      "generated_duration": 3.08,
+      "final_duration": 2.476,
+      "speed_adjustment": 1.2419,
+      "tts_speed": 1.0,
+      "placement_start": 202.47,
+      "placement_end": 204.946,
+      "overflow_seconds": 0.396,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.95,
+      "attempts": [
+        {
+          "text": "मुझे माफ़ करना, मुझे समझ नहीं आया।",
+          "generated": 3.77,
+          "ratio": 1.5202
+        },
+        {
+          "text": "माफ़ करना, समझा नहीं।",
+          "generated": 3.08,
+          "ratio": 1.2419
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00075",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.3,
+      "window_seconds": 2.7,
+      "generated_duration": 3.33,
+      "final_duration": 2.708,
+      "speed_adjustment": 1.2333,
+      "tts_speed": 1.0,
+      "placement_start": 205.09,
+      "placement_end": 207.798,
+      "overflow_seconds": 0.408,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -9.0,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, मैं फिर से समझा सकता हूँ।",
+          "generated": 3.67,
+          "ratio": 1.3593
+        },
+        {
+          "text": "कोई बात नहीं, मैं फिर समझा दूँगा।",
+          "generated": 3.33,
+          "ratio": 1.2333
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00076",
+      "speaker_id": "SPEAKER_00",
+      "status": "atempo",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.24,
+      "window_seconds": 2.64,
+      "generated_duration": 2.85,
+      "final_duration": 2.65,
+      "speed_adjustment": 1.0795,
+      "tts_speed": 1.0,
+      "placement_start": 208.52,
+      "placement_end": 211.17,
+      "overflow_seconds": 0.41,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.71,
+      "attempts": [
+        {
+          "text": "मुझे माफ़ करना, मुझे समझ नहीं आया।",
+          "generated": 3.77,
+          "ratio": 1.428
+        },
+        {
+          "text": "माफ़ करना, समझ नहीं आया।",
+          "generated": 2.85,
+          "ratio": 1.0795
+        }
+      ]
+    },
+    {
+      "segment_id": "seg_00077",
+      "speaker_id": "SPEAKER_02",
+      "status": "atempo_after_refine",
+      "refine_attempts": 1,
+      "text_locked": false,
+      "original_duration": 2.22,
+      "window_seconds": 2.62,
+      "generated_duration": 3.28,
+      "final_duration": 2.614,
+      "speed_adjustment": 1.2519,
+      "tts_speed": 1.0,
+      "placement_start": 211.18,
+      "placement_end": 213.794,
+      "overflow_seconds": 0.394,
+      "overlaps_next": false,
+      "warning": null,
+      "gain_db": -8.81,
+      "attempts": [
+        {
+          "text": "कोई बात नहीं, मैं फिर से समझा सकता हूँ।",
+          "generated": 3.67,
+          "ratio": 1.4008
+        },
+        {
+          "text": "कोई बात नहीं, फिर समझा दूँगा।",
+          "generated": 3.28,
+          "ratio": 1.2519
+        }
+      ]
+    }
+  ]
+}

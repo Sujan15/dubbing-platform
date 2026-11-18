@@ -1,0 +1,29 @@
+2026-11-18 09:36:18,564 INFO dubbing.pipeline: Input input.mp4: 35.0s, 1920x1080 @ 60.000 fps, video=h264, audio streams=1
+2026-11-18 09:36:18,618 INFO dubbing.pipeline: Workspace: G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\work\2b9a3c27e66857cf | device: cpu
+2026-11-18 09:36:18,621 INFO dubbing.pipeline: [extract] cache hit (8390ba5c8aa294eb)
+2026-11-18 09:36:18,623 INFO dubbing.pipeline: [separate] cache hit (9973917a188881da)
+2026-11-18 09:36:18,626 INFO dubbing.pipeline: [transcribe] cache hit (c6da5df2b69b5dff)
+2026-11-18 09:36:18,640 INFO dubbing.pipeline: [diarize] cache hit (36cf8c6a152dfce8)
+2026-11-18 09:36:18,656 INFO dubbing.pipeline: [align] cache hit (535e2b33abaee3c7)
+2026-11-18 09:36:18,670 INFO dubbing.pipeline: [translate] cache hit (da543c606c7284c1)
+2026-11-18 09:36:18,681 INFO dubbing.pipeline: [voices] cache hit (927ee1a9fa5cdfb6)
+2026-11-18 09:36:23,179 INFO dubbing.pipeline: [identity] cache hit (0cf315dae520265c)
+2026-11-18 09:36:23,209 INFO dubbing.jobs: Job 59c02904e17749aea96190aa1c1c6cc7 analysed: 7 segments, 4 speakers; awaiting review
+2026-11-18 09:41:21,226 INFO dubbing.pipeline: Input input.mp4: 35.0s, 1920x1080 @ 60.000 fps, video=h264, audio streams=1
+2026-11-18 09:41:21,228 INFO dubbing.pipeline: Workspace: G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\work\2b9a3c27e66857cf | device: cpu
+2026-11-18 09:41:21,229 INFO dubbing.pipeline: [extract] cache hit (8390ba5c8aa294eb)
+2026-11-18 09:41:21,230 INFO dubbing.pipeline: [separate] cache hit (9973917a188881da)
+2026-11-18 09:41:21,231 INFO dubbing.pipeline: [voices] cache hit (927ee1a9fa5cdfb6)
+2026-11-18 09:41:21,240 INFO dubbing.pipeline: Voice SPEAKER_00 (Speaker 1): requested=cast resolved=cast ref=0.0s
+2026-11-18 09:41:21,243 INFO dubbing.pipeline: Voice SPEAKER_01 (Speaker 2): requested=cast resolved=cast ref=0.0s
+2026-11-18 09:41:21,244 INFO dubbing.pipeline: Voice SPEAKER_02 (Speaker 3): requested=cast resolved=cast ref=0.0s
+2026-11-18 09:41:21,245 INFO dubbing.pipeline: Voice SPEAKER_03 (Speaker 4): requested=cast resolved=cast ref=0.0s
+2026-11-18 09:41:21,248 INFO dubbing.pipeline: [synthesize] running (0953c99f4d3cc047)
+2026-11-18 09:45:32,606 INFO dubbing.pipeline: [seg_00004] 45% too long; refined to 22 chars (attempt 1)
+2026-11-18 09:47:51,464 INFO dubbing.pipeline: [synthesize] completed in 390.2s
+2026-11-18 09:47:51,492 INFO dubbing.pipeline: [mix] running (88303a2116ff7bde)
+2026-11-18 09:47:52,419 INFO dubbing.pipeline: mix: dialogue needed +9.8 dB to reach -17.0 LUFS; capped at +6.0 dB (DIALOGUE_NORMALIZE_MAX_DB)
+2026-11-18 09:47:52,419 INFO dubbing.pipeline: mix: bed (-14.9 LUFS) louder than dialogue - 6 dB; lowered -11.9 dB
+2026-11-18 09:47:52,572 INFO dubbing.pipeline: [mix] completed in 1.1s
+2026-11-18 09:47:55,444 INFO dubbing.pipeline: Output validated: input.hindi.mp4 (35.0s)
+2026-11-18 09:48:02,053 INFO dubbing.jobs: Job 59c02904e17749aea96190aa1c1c6cc7 succeeded -> G:\ETL DEMO WORK\ETL_BEST_PRACTICES\ai_dubbing\hindi-dubbing-platform\data\outputs\59c02904e17749aea96190aa1c1c6cc7\input.hindi.mp4

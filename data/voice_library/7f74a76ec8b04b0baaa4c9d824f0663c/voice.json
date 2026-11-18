@@ -1,0 +1,61 @@
+{
+  "voice_id": "7f74a76ec8b04b0baaa4c9d824f0663c",
+  "voice_name": "Heroine — Divya",
+  "kind": "cast",
+  "engine": "parler",
+  "language": "hi",
+  "gender": "female",
+  "description": "Heroine (catalog slot; audition and approve before use)",
+  "catalog_slot": "HIN_FEMALE_HEROINE_01",
+  "reference_available": false,
+  "reference_transcript": null,
+  "reference_language": "hi",
+  "reference_duration_seconds": 0.0,
+  "reference_speech_seconds": 0.0,
+  "reference_sample_rate": null,
+  "reference_quality": [],
+  "reference_sha256": null,
+  "voice_description_prompt": "Divya speaks with a warm, slightly high-pitched female voice and an expressive, engaging tone at a moderate pace. The recording is very clear audio, close-sounding, and captured in a studio environment with no background noise.",
+  "prompt_version": 1,
+  "prompt_versions": [
+    {
+      "version": 1,
+      "prompt": "Divya speaks with a warm, slightly high-pitched female voice and an expressive, engaging tone at a moderate pace. The recording is very clear audio, close-sounding, and captured in a studio environment with no background noise.",
+      "created_at": "2026-11-17T09:40:50.145447Z"
+    }
+  ],
+  "sample_text": "नमस्ते, मेरा नाम अर्जुन है। आज हम एक नई कहानी की शुरुआत करने जा रहे हैं।",
+  "generation_parameters": {},
+  "seed": null,
+  "model_id": "ai4bharat/indic-parler-tts",
+  "model_revision": null,
+  "supported_language_status": "validated",
+  "license_metadata": {
+    "license": "See the model card of PARLER_MODEL (Apache-2.0 for indic-parler-tts weights; verify)",
+    "commercial_use": null
+  },
+  "quality_benchmark": {},
+  "approved": true,
+  "approved_at": "2026-11-17T12:30:06.946471Z",
+  "approved_config_hash": "d2b518a09431dfaa",
+  "approval_note": "Real Parler Hindi audition verified: non-empty WAV, 0.84s at 44100 Hz, RMS 0.0447, peak 0.2172; no clipping or reported audition problems.",
+  "active": true,
+  "preview": {
+    "text": "नमस्ते दुनिया",
+    "generated_at": "2026-11-17T12:30:00.662942Z",
+    "config_hash": "d2b518a09431dfaa",
+    "prompt_version": 1,
+    "artifact_name": "auditions/e2d64c15e542498c80972e5eea1c9c09.wav",
+    "engine": "parler",
+    "model_id": "ai4bharat/indic-parler-tts",
+    "model_revision": null,
+    "duration_seconds": 0.84,
+    "run_id": "e2d64c15e542498c80972e5eea1c9c09",
+    "problems": []
+  },
+  "origin": {
+    "catalog": true
+  },
+  "created_at": "2026-11-17T09:40:50.145447Z",
+  "updated_at": "2026-11-17T12:30:06.946471Z"
+}

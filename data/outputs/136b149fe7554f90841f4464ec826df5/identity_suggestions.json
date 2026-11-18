@@ -1,0 +1,42 @@
+{
+  "job_id": "136b149fe7554f90841f4464ec826df5",
+  "suggestions": [
+    {
+      "local_speaker_id": "SPEAKER_00",
+      "status": "unassigned",
+      "character_id": null,
+      "confidence": null,
+      "reason": "no characters with voice evidence yet",
+      "speech_seconds": 4.8,
+      "candidates": []
+    },
+    {
+      "local_speaker_id": "SPEAKER_01",
+      "status": "unassigned",
+      "character_id": null,
+      "confidence": null,
+      "reason": "only 0.0s of clean speech (< MIN_SEGMENT_IDENTITY_DURATION=1); too little evidence for an identity match",
+      "speech_seconds": 0.0,
+      "candidates": []
+    },
+    {
+      "local_speaker_id": "SPEAKER_02",
+      "status": "unassigned",
+      "character_id": null,
+      "confidence": null,
+      "reason": "no characters with voice evidence yet",
+      "speech_seconds": 2.08,
+      "candidates": []
+    },
+    {
+      "local_speaker_id": "SPEAKER_03",
+      "status": "unassigned",
+      "character_id": null,
+      "confidence": null,
+      "reason": "no characters with voice evidence yet",
+      "speech_seconds": 9.97,
+      "candidates": []
+    }
+  ],
+  "characters_with_evidence": []
+}
